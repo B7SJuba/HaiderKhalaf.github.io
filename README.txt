@@ -1,32 +1,13 @@
-Massively by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+My Portfolio
+This is the source code for my personal portfolio website. The design is based on the Massively template by HTML5 UP, which is free for personal and commercial use under the CCA 3.0 license.
 
-
-This is Massively, a text-heavy, article-oriented design built around a huge background
-image (with a new parallax implementation I'm testing) and scroll effects (powered by
-Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
-that fulfills a few user requests and makes use of some new techniques I've been wanting
-to try out. Enjoy it :)
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+Features
+Text-heavy, article-oriented design with a parallax background
+Smooth scroll effects powered by Scrollex
+Fully responsive layout
+Acknowledgments
+Template: Massively by HTML5 UP
+Images: Courtesy of Unsplash
+Icons: Font Awesome
+Libraries: jQuery, Scrollex, Responsive Tools
+Feel free to explore, modify, or use this project as inspiration for your own portfolio.
