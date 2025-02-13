@@ -16,6 +16,21 @@
 		<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
 		<link rel="manifest" href="/icons/site.webmanifest" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.video-container {
+			position: relative;
+			width: 100%;
+			padding-top: 56.25%; /* 16:9 Aspect Ratio */
+			}
+			
+			.video-container iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -66,16 +81,26 @@
 									 servo control, Arduino programming, and machine learning, while enhancing my teamwork, problem-solving, and practical application skills in a multidisciplinary setting.<br \>
 									Here are some videos of the project:
 									 </p>
-								 	  <p>Demo 1:</p>
-									 <div style = "text-align:center">	 
-										<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/py64qXxQUnw?si=uETTgZleTEMDhRZd" title="YouTube video player" frameborder="0" 
-										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
-										picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+									 <p>Demo 1:</p>
+									 <div class="video-container">
+										<iframe 
+											src="https://www.youtube-nocookie.com/embed/py64qXxQUnw?si=uETTgZleTEMDhRZd" 
+											title="YouTube video player" 
+											frameborder="0" 
+											allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+											referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+										</iframe>
 									 </div>
-									<p>Demo 2:</p>
-									<div style="text-align: center;">
-										<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/87DKZ6mHQSA?si=6HW-CNDYumlx0Bty" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
-										clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+									<p><br/>Demo 2:</p>
+									<div class="video-container">
+										<iframe 
+											src="https://www.youtube-nocookie.com/embed/87DKZ6mHQSA?si=6HW-CNDYumlx0Bty" 
+											title="YouTube video player" 
+											frameborder="0" 
+											allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+											referrerpolicy="strict-origin-when-cross-origin" 
+											allowfullscreen>
+										</iframe>
 									</div>
 								<p>In addition to the project development, our research paper on this work was presented at ISB JSB Fukuoka 2023, 
 									detailing our advancements in vision-based robotic hand control. Below is a snapshot of the published paper.	
