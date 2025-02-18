@@ -24,7 +24,7 @@
 
 				<!-- Intro -->
 					<div id="intro">
-						<h1>HAIDER KHALAF</h1>
+						<h1 id="myHeader"></h1>
 						<p>Junior Computer Engineer skilled in full-stack development and robotics, delivering integrated hardware-software solutions. Proficient in programming, algorithms, and web technologies, with a focus on quality, collaboration, and timely results</p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
@@ -211,6 +211,40 @@
 							console.error('Could not copy text: ', err);
 						});
 				}
+			</script>
+			<script>
+				const txt = "HAIDER KHALAF";
+				let i = 0;
+				let speed = 150;
+
+				function typingEffect(){
+
+					if (i<txt.length){
+						document.getElementById("myHeader").innerHTML += txt.charAt(i);
+						i++;
+						setTimeout(typingEffect, speed);
+					} 
+				}
+					/* //Uncomment for deleting effect. 
+					
+					else {
+						setTimeout(deletingEffect, speed * 10); // Starting to delete after a short pause
+					} 
+				}
+
+				function deletingEffect(){
+					if ( i >= 0 ){
+						document.getElementById("myHeader").innerHTML = txt.substring(0,i);
+						i--;
+						setTimeout(deletingEffect, speed);
+					} else {
+						setTimeout(typingEffect, speed * 2); // Restart typing after a short pause. 
+					}
+				}
+					*/
+				// Starting the effect
+				typingEffect();
+
 			</script>
 
 	</body>
