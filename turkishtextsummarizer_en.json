@@ -1,0 +1,13 @@
+{
+    "TurkishTextSummarizer": "Turkish Text Summarizer",
+    "myHeader": "Haider Khalaf",
+    "Projects&WorkExperience": "Projects & Work Experience",
+    
+    "TurkishTextSummarizerDate": "February 2023 - January 2024",
+    "FirstArticle": "Full-stack project that uses NLP techniques, including cosine similarity and PageRank, to generate concise summaries of Turkish texts.\nIt features a scalable back-end for efficient processing and an interactive front-end for user-friendly input and visualization,\ndelivering accurate and intuitive summarization results.",
+    "SecondArticle": "I developed a full-stack solution aimed at automating the summarization of Turkish text using Natural Language Processing (NLP) techniques.\nThe core of the project was the NLP algorithm, where I created a Turkish text summarization model that utilized cosine similarity and PageRank for ranking and extracting the most relevant\ninsights from the text. This approach allowed for a more accurate and meaningful summarization process, tailored specifically for Turkish language content.\nOn the backend, I focused on optimizing the text processing pipeline to ensure scalability and accuracy for large text inputs. I integrated machine learning models to refine the summarization,\nallowing for dynamic adjustments based on text complexity. On the frontend, I built a responsive web interface that allowed users to input text, view summaries, and interact with visualizations of the summarized content.\nThe project was built as a full-stack application, connecting the backend processing with the frontend interface seamlessly, ensuring a smooth and intuitive user experience. By focusing on user-centric design,\nI ensured the system was easy to navigate, making it accessible for users with varying technical expertise. This project not only honed my skills in NLP and full-stack development but also deepened my understanding of how to create useful,\nreal-world applications with advanced text-processing techniques.\nHere's the link for the project's repository:",
+
+    "Email": "Email",
+    "Social": "Social"
+
+}

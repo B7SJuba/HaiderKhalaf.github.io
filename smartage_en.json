@@ -1,0 +1,13 @@
+{
+    "SMARTAGE": "SMARTAGE",
+    "myHeader": "Haider Khalaf",
+    "Projects&WorkExperience": "Projects & Work Experience",
+
+    "SmartageDate": "February 2024 - December 2024",
+    "FirstArticle": "Sensor-Based Monitoring and Adaptation for Geriatric Environments in real time.\nBy integrating IoT devices and machine learning models, it collects, analyzes, and responds to data, ensuring personalized and adaptive solutions that enhance the safety and well-being of elderly individuals.\nThe system leverages advanced positioning algorithms and intuitive dashboards to provide seamless visualization and actionable insights, making it a robust tool for improving quality of life in geriatric settings.",
+    "SecondArticle": "During my Software Engineering Internship at Nottingham Trent University (NTU) from Feb 2024 to Dec 2024, I contributed to SMARTAGE project,\nwhich aimed to enhance the safety and well-being of elderly individuals through a real-time monitoring system that integrates IoT devices and machine learning models.\nA key aspect of this project involved developing IoT devices using ESP32 boards and UWB (Ultra Wideband) technology, which enabled precise indoor localization and real-time positioning of elderly individuals. I implemented trilateration algorithms in Python,\nleveraging data from these devices to accurately track the location of individuals and adapt the system’s responses based on real-time conditions. Additionally, the collected data was used to create personalized, adaptive solutions, ensuring the comfort and safety of elderly users.\nI was also responsible for the design and development of interactive dashboards using Turtle Graphics, which provided a user-friendly visualization of the data collected by the system.\nThese dashboards offered actionable insights, making it easier for caregivers to monitor the environment and take proactive actions based on the data. This project allowed me to work on cutting-edge technologies, including UWB and machine learning, while contributing to a solution with significant social impact in geriatric care.\nHere's a demo that was shared on LinkedIn showing the early stages of the project:",
+
+
+    "Email": "Email",
+    "Social": "Social"
+}

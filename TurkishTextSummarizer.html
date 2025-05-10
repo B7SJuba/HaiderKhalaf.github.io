@@ -4,9 +4,9 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en" dir="ltr">
 	<head>
-		<title>Turkish Text Summarizer</title>
+		<title data-i18n="TurkishTextSummarizer"></title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -16,6 +16,9 @@
 		<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
 		<link rel="manifest" href="/icons/site.webmanifest" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cairo&display=swap" rel="stylesheet">
+
 	</head>
 	<body class="is-preload">
 
@@ -24,18 +27,25 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index" class="logo">Haider Khalaf</a>
+						<a href="index" class="logo" data-i18n="myHeader"></a>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li><a href="index">Projects & Work Experience</a></li>
+							<li><a href="index" data-i18n="Projects&WorkExperience"></a></li>
 
 						</ul>
 						<ul class="icons">
 							<li><a href="https://www.linkedin.com/in/haider-khalaf/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">fa-linkedIn</span></a></li>
 							<li><a href="https://github.com/B7SJuba" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li>
+								<div class="language-switch" id="langSwitcher">
+									<div class="switch-ball"></div>
+									<span class="label-en">En</span>
+									<span class="label-ar">عربي</span>
+									</div>
+							</li>
 						</ul>
 					</nav>
 
@@ -45,25 +55,13 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<span class="date">February 2023 - January 2024</span>
-									<h1>Turkish Text Summarizer</h1>
-									<p>Full-stack project that uses NLP techniques, including cosine similarity and PageRank, to generate concise summaries of Turkish texts.
-										It features a scalable back-end for efficient processing and an interactive front-end for user-friendly input and visualization, 
-										delivering accurate and intuitive summarization results.</p>
+									<span class="date" data-i18n="TurkishTextSummarizerDate"></span>
+									<h1 data-i18n="TurkishTextSummarizer"></h1>
+									<p data-i18n="FirstArticle"></p>
 								</header>
 								<div class="image main"><img src="images/NLP.png" alt="" /></div>
-								<p>I developed a full-stack solution aimed at automating the summarization of Turkish text using Natural Language Processing (NLP) techniques. 
-									The core of the project was the NLP algorithm, where I created a Turkish text summarization model that utilized cosine similarity and PageRank for ranking and extracting the most relevant
-									 insights from the text. This approach allowed for a more accurate and meaningful summarization process, tailored specifically for Turkish language content.<br \>
-
-									On the backend, I focused on optimizing the text processing pipeline to ensure scalability and accuracy for large text inputs. I integrated machine learning models to refine the summarization, 
-									allowing for dynamic adjustments based on text complexity. On the frontend, I built a responsive web interface that allowed users to input text, view summaries, and interact with visualizations of the summarized content.<br \>
-									
-									The project was built as a full-stack application, connecting the backend processing with the frontend interface seamlessly, ensuring a smooth and intuitive user experience. By focusing on user-centric design, 
-									I ensured the system was easy to navigate, making it accessible for users with varying technical expertise. This project not only honed my skills in NLP and full-stack development but also deepened my understanding of how to create useful, 
-									real-world applications with advanced text-processing techniques.<br\>
-									Here's the link for the project's <a href="https://github.com/B7SJuba/TurkishTextSummarizer" target="_blank"><b>github repository</b></a>.
-								</p>
+								<p data-i18n="SecondArticle"></p>
+								<p><a href="https://github.com/B7SJuba/TurkishTextSummarizer" target="_blank"><b>Turkish Text Summarizer repository</b></a></p>
 							</section>
 
 					</div>
@@ -73,11 +71,11 @@
 						
 						<section class="split contact">
 							<section>
-								<h3>Email</h3>
+								<h3 data-i18n="Email"></h3>
 								<p><a onclick="copyToClipboard('HKhalaf.contact@gmail.com'); return false;">HKhalaf.contact@gmail.com</a></p>
 							</section>
 							<section>
-								<h3>Social</h3>
+								<h3 data-i18n="Social"></h3>
 								<ul class="icons alt">
 									<li><a href="https://www.linkedin.com/in/haider-khalaf/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">fa-linkedIn</span></a></li>
 									<li><a href="https://github.com/B7SJuba" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
@@ -110,6 +108,53 @@
 						.catch(err => {
 							console.error('Could not copy text: ', err);
 						});
+				}
+			</script>
+			<script>
+
+				// Language Switcher Logic
+
+				const switcher = document.getElementById("langSwitcher");
+				const ball = switcher.querySelector(".switch-ball");
+
+				// Get saved language or default to English
+				let lang = localStorage.getItem("lang") || "en";
+				setLanguage(lang, false);  // Set initial state without animation
+
+				// Toggle language on click
+				switcher.addEventListener("click", () => {
+					lang = lang === "en" ? "ar" : "en";
+					localStorage.setItem("lang", lang);
+					setLanguage(lang, true);
+				});
+
+				function setLanguage(langCode, animate) {
+					// Position the switch ball
+					if (animate) {
+					ball.style.transition = "left 0.3s ease";
+					} else {
+					ball.style.transition = "none";
+					}
+					ball.style.left = langCode === "ar" ? "0px" : "2px";
+
+					// Set HTML language attributes
+					document.documentElement.setAttribute("lang", langCode);
+					document.documentElement.setAttribute("dir", langCode === "ar" ? "rtl" : "ltr");
+
+					// Load translation file
+					loadLanguage(langCode);
+					
+				}
+
+				function loadLanguage(langCode) {
+					fetch(`turkishtextsummarizer_${langCode}.json`)
+					.then(res => res.json())
+					.then(data => {
+						document.querySelectorAll("[data-i18n]").forEach(el => {
+						const key = el.getAttribute("data-i18n");
+						el.textContent = data[key] || key;
+						});
+					});
 				}
 			</script>
 

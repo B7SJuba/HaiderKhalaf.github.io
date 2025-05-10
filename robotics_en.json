@@ -1,0 +1,20 @@
+{
+
+    "Robotics": "Robotics",
+    "myHeader": "Haider Khalaf",
+    "Projects&WorkExperience": "Projects & Work Experience",
+    
+    "RoboticsDate": "February 2022 - June 2022",
+    "FirstArticle": "The Robotics project focused on developing a robotic hand controlled via computer vision, integrating machine learning and image processing.\nA novel approach was proposed to improve the efficiency of vision-based finger motion control.\nThe work has been submitted for a patent and is set for publication as a research article.",
+    "SecondArticle": "In the Robotics project (Feb 2022 – June 2022), I collaborated with a team to develop an advanced robotic hand controlled using computer vision,\npowered by machine learning and image processing techniques. The goal was to create an intuitive system that allowed the robotic hand to replicate human gestures based on real-time visual input.\nMy role focused on implementing the machine learning algorithms that processed visual data from cameras and translated it into motor commands for the robotic fingers.\nWe utilized a variety of hardware components, including servo motors, an Arduino microcontroller, and other sensors, to facilitate precise movements and control of the robotic hand.\nThe integration of these hardware components was critical for ensuring smooth, accurate motion and responsiveness to the computer vision system.\nA key innovation in this project was the introduction of a novel interaction approach to improve the efficiency of translating vision inputs into robotic finger movements.\nWe combined different machine learning models to ensure seamless integration between visual detection and robotic motion, improving response time and system accuracy.\nThe project led to a patent application submission and we are currently preparing a research article for publication. This experience provided me with valuable hands-on exposure to robotics,\nservo control, Arduino programming, and machine learning, while enhancing my teamwork, problem-solving, and practical application skills in a multidisciplinary setting.\nHere are some videos of the project:",
+    "ThirdArticle": "In addition to the project development, our research paper on this work was presented at ISB JSB Fukuoka 2023,\ndetailing our advancements in vision-based robotic hand control. Below is a snapshot of the published paper.",
+    "FourthArticle": "This is the research paper we presented at ISB JSB Fukuoka 2023, where we introduced our approach to robotic hand control using computer vision and machine learning.\nMore papers related to this project will be shared in the future. Since the official event proceedings are not currently available online,\nyou can view the full collection of published papers from the conference below:",
+
+    
+    "Demo1": "Demo 1:",
+    "Demo2": "Demo 2:",
+    "Email": "Email",
+    "Social": "Social"
+
+
+}

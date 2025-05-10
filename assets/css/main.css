@@ -1,6 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
+
 /*
 	Massively by HTML5 UP
 	html5up.net | @ajlkn
@@ -71,6 +72,12 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+
+/* To force arabic font 
+:lang(ar) * {
+  font-family: "Cairo", "Noto Naskh Arabic", "Amiri", serif !important;
+}
+*/
 
 /* Basic */
 
@@ -153,6 +160,11 @@ input, select, textarea {
 		font-size: 1rem;
 		line-height: 2.375;
 	}
+	
+	/* Arabic-specific font override */
+	:lang(ar) body, :lang(ar) input, :lang(ar) select, :lang(ar) textarea {
+		font-family: "Cairo", "Amiri", "Noto Naskh Arabic", serif;
+	}
 
 	a {
 		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
@@ -187,6 +199,17 @@ input, select, textarea {
 		letter-spacing: 0.075em;
 		text-transform: uppercase;
 		margin: 0 0 1rem 0;
+	}
+	
+	/* Arabic-specific font override */
+	:lang(ar) h1, 
+	:lang(ar) h2,
+	:lang(ar) h3,
+	:lang(ar) h4,
+	:lang(ar) h5,
+	:lang(ar) h6 {
+ 		 font-family: "Amiri", serif;
+		 letter-spacing: normal;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -250,12 +273,21 @@ input, select, textarea {
 		margin: 0 0.25rem;
 		padding: 0.25rem 0.65rem;
 	}
+	/* Arabic-specific font override */
+	:lang(ar) code {
+ 		 font-family: "Cairo", "Amiri", "Noto Naskh Arabic", serif;
+	}
 
 	pre {
 		-webkit-overflow-scrolling: touch;
 		font-family: "Courier New", monospace;
 		font-size: 0.9rem;
 		margin: 0 0 2rem 0;
+	}
+
+	/* Arabic-specific font override */
+	:lang(ar) pre {
+ 		 font-family: "Cairo", "Amiri", "Noto Naskh Arabic", serif;
 	}
 
 		pre code {
@@ -2090,6 +2122,13 @@ input, select, textarea {
 		text-transform: uppercase;
 		white-space: nowrap;
 	}
+	/* Arabic-specific font override */
+	:lang(ar) .button, :lang(ar) input[type="submit"],
+	:lang(ar) input[type="reset"],
+	:lang(ar) [type="button"] {
+ 		 font-family: "Cairo", "Amiri", "Noto Naskh Arabic", serif;
+		 letter-spacing: normal;
+	}
 
 		input[type="submit"].icon:before,
 		input[type="reset"].icon:before,
@@ -2237,6 +2276,204 @@ input, select, textarea {
 				background-color: #18bfef;
 			}
 
+
+	/* Language Button */
+
+		.menu {
+			font-size: 16px;
+			line-height: 1.6;
+			color: #000000;
+			width: fit-content;
+			display: flex;
+			list-style: none;
+		}
+		
+		.language-button {
+			-moz-appearance: none;
+			-webkit-appearance: none;
+			appearance: none;
+			transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+			border: 0;
+			border-radius: 0;
+			cursor: pointer;
+			display: inline-flex;
+			align-items: center;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-size: 0.8rem;
+			font-weight: 900;
+			letter-spacing: 0.075em;
+			height: 3rem;
+			line-height: 3rem;
+			padding: 0 2rem;
+			text-align: center;
+			text-transform: uppercase;
+			white-space: nowrap;
+			gap: 0.5rem;
+			background-color: transparent;
+			box-shadow: inset 0 0 0 2px #ffffff;
+			color: #212931;
+			position: relative;
+		}
+			/* Arabic-specific font override */
+			:lang(ar) .language-button {
+					font-family: "Cairo", "Amiri", "Noto Naskh Arabic", serif;
+			}
+		
+		.language-button:hover {
+			box-shadow: inset 0 0 0 2px #18bfef;
+			color: #18bfef;
+		}
+		
+		.language-button svg {
+			width: 14px;
+			height: 14px;
+			fill: currentColor;
+			transition: transform 0.3s ease;
+		}
+		
+		.item:hover .language-button svg {
+			transform: rotate(-180deg);
+		}
+		
+		.item {
+			position: relative;
+		}
+		
+		.submenu {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			position: absolute;
+			top: 100%;
+			border-radius: 0 0 16px 16px;
+			left: 0;
+			width: 100%;
+			overflow: hidden;
+			border: 1px solid #ffffff;
+			opacity: 0;
+			visibility: hidden;
+			transform: translateY(-12px);
+			transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+			z-index: 1;
+			pointer-events: none;
+			list-style: none;
+		}
+		
+		.item:hover .submenu {
+			opacity: 1;
+			visibility: visible;
+			transform: translateY(0);
+			pointer-events: auto;
+			border-top: transparent;
+			border-color: #ffffff;
+		}
+		
+		.submenu-item {
+			width: 100%;
+			transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+		}
+		
+		.submenu-link {
+			display: block;
+			padding: 12px 24px;
+			width: 100%;
+			position: relative;
+			text-align: center;
+			transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 600;
+			font-size: 0.8rem;
+			text-decoration: none;
+			color: inherit;
+		}
+			/* Arabic-specific font override */
+		:lang(ar) .submenu-link {
+ 		 font-family: "Cairo", "Amiri", "Noto Naskh Arabic", serif;
+			}
+		
+		.submenu-link::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			transform: scaleX(0);
+			width: 100%;
+			height: 100%;
+			background-color:#e8e8e8; /* sub menu BG color */
+			z-index: -1;
+			transform-origin: left;
+			transition: transform 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+		}
+		
+		.submenu-link:hover:before {
+			transform: scaleX(1);
+			transform-origin: right;
+		}
+		
+		.submenu-link:hover {
+			color: #ffffff;
+		}
+		
+
+
+
+  /* Language Switch */ 
+	.language-switch {
+		position: relative;
+		width: 140px;
+		height: 40px;
+		background: transparent;
+		border: 2px solid #ffffff;
+		border-radius: 50px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 100 12px;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-weight: bold;
+		color: #ffffff;
+		cursor: pointer;
+		box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+		user-select: none;
+		transition: background 0.3s;
+	}
+	/* Arabic-specific font override */
+	:lang(ar) .language-switch {
+ 		 font-family: "Cairo", "Amiri", "Noto Naskh Arabic", serif;
+	}
+
+	.language-switch:hover{
+		border: 2px solid #18bfef;
+		color: #18bfef !important;
+
+	}
+
+
+
+
+	.language-switch .label-en,
+	.language-switch .label-ar {
+		width: 50%;
+		text-align: center;
+		z-index: 2;
+	}
+
+	.language-switch .switch-ball {
+		position: absolute;
+		top: 2px;
+		left: 2px;
+		width: 66px;
+		height: 32px;
+		background: #000000;
+		border-radius: 30px;
+		transition: left 0.3s;
+		z-index: 1;
+	}
+
+  
+
+
+
 /* Form */
 
 	form {
@@ -2320,6 +2557,10 @@ input, select, textarea {
 		font-size: 0.8rem;
 		text-transform: uppercase;
 		margin: 0 0 0.75rem 0;
+	}
+	/* Arabic-specific font override */
+	:lang(ar) label {
+ 		 font-family: "Cairo", "Amiri", "Noto Naskh Arabic", serif;
 	}
 
 		@media screen and (max-width: 980px) {
@@ -2414,6 +2655,10 @@ input, select, textarea {
 			padding-right: 1rem;
 			position: relative;
 		}
+		:lang(ar) input[type="checkbox"] + label,
+		:lang(ar) [type="radio"] + label {
+		  font-family: "Cairo", "Noto Naskh Arabic", "Amiri", serif !important;
+		}
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
@@ -2427,6 +2672,10 @@ input, select, textarea {
 				text-transform: none !important;
 				font-family: 'Font Awesome 5 Free';
 				font-weight: 900;
+			}
+			:lang(ar) input[type="checkbox"] + label:before,
+			:lang(ar) [type="radio"] + label:before {
+		 	 font-family: "Cairo", "Noto Naskh Arabic", "Amiri", serif !important;
 			}
 
 			input[type="checkbox"] + label:before,
@@ -3032,6 +3281,10 @@ input, select, textarea {
 			text-align: left;
 			text-transform: uppercase;
 		}
+			/* Arabic-specific font override */
+		:lang(ar) table th {
+ 		 font-family: "Cairo", "Amiri", "Noto Naskh Arabic", serif;
+		}
 
 			@media screen and (max-width: 980px) {
 
@@ -3136,6 +3389,10 @@ input, select, textarea {
 			text-decoration: none;
 			text-transform: uppercase;
 		}
+			/* Arabic-specific font override */
+		:lang(ar) .pagination a, .pagination span {
+ 		 font-family: "Cairo", "Amiri", "Noto Naskh Arabic", serif;
+		}
 
 		.pagination .next, .pagination .previous {
 			text-decoration: none;
@@ -3154,6 +3411,7 @@ input, select, textarea {
 				font-family: 'Font Awesome 5 Free';
 				font-weight: 900;
 			}
+
 
 			.pagination .next:before, .pagination .previous:before {
 				display: inline-block;
@@ -3575,6 +3833,11 @@ input, select, textarea {
 			text-transform: uppercase;
 			visibility: visible;
 		}
+		/* Arabic-specific font override */
+		:lang(ar) #header .logo {
+ 		 font-family: "Amiri", serif;
+		 letter-spacing: normal;
+		}
 
 			#header .logo:hover {
 				border-color: #18bfef !important;
@@ -3698,6 +3961,11 @@ input, select, textarea {
 			margin-bottom: 0;
 			padding-left: 0;
 			text-transform: uppercase;
+		}
+			/* Arabic-specific font override */
+		:lang(ar) #nav ul.links {
+ 		 font-family: "Cairo", "Amiri", "Noto Naskh Arabic", serif;
+		 letter-spacing: normal;
 		}
 
 			#nav ul.links li {
@@ -4399,6 +4667,11 @@ input, select, textarea {
 		max-width: 72rem;
 		z-index: 2;
 	}
+	/* Arabic-specific font override */
+	:lang(ar) #copyright {
+ 		 font-family: "Cairo", "Amiri", "Noto Naskh Arabic", serif;
+		 margin: 4rem auto 8rem auto;
+	}
 
 		#copyright input, #copyright select, #copyright textarea {
 			color: #ffffff;
@@ -4505,6 +4778,11 @@ input, select, textarea {
 		text-transform: uppercase;
 		z-index: 10001;
 	}
+	/* Arabic-specific font override */
+	:lang(ar) #navPanelToggle {
+ 		 font-family: "Cairo", "Amiri", "Noto Naskh Arabic", serif;
+		 letter-spacing: normal;
+	}
 
 		#navPanelToggle:before {
 			-moz-osx-font-smoothing: grayscale;
@@ -4597,6 +4875,10 @@ input, select, textarea {
 					padding: 0.75rem 0;
 					text-transform: uppercase;
 				}
+					/* Arabic-specific font override */
+					:lang(ar) #navPanel .links {
+						font-family: "Cairo", "Amiri", "Noto Naskh Arabic", serif;
+					}
 
 				#navPanel .links li:first-child {
 					border-top: 0;

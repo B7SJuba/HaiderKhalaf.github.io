@@ -1,0 +1,14 @@
+{
+    "ImageProcessing": "Image Processing",
+    "myHeader": "Haider Khalaf",
+    "Projects&WorkExperience": "Projects & Work Experience",
+   
+    "ImageProcessingDate": "February 2023 - January 2024",
+    "FirstArticle": "The project involved creating a tailored dataset for training machine learning models to detect and classify images.\nIt included developing an automated sorting algorithm, enabling real-time object detection and tracking in videos, and building\na comprehensive end-to-end analysis pipeline optimized for accuracy and efficiency across diverse scenarios.",
+    "SecondArticle": "I collaborated with a team of colleagues at university to develop a comprehensive image and video analysis system.\nThe project focused on creating a machine learning pipeline for image detection and classification.\nI was responsible for preparing custom datasets, tailored specifically for training the models to accurately detect and classify a wide range of images.\nThis involved data cleaning, labeling, and enhancing the dataset to ensure robust performance.\nWe also developed an automated sorting algorithm that was capable of detecting, classifying, and sorting images into organized folders, improving the efficiency of data management.\nIn addition, we implemented real-time object detection in video, which enabled the system to track and count objects within videos, with the added functionality of generating class-specific totals.\nThe project resulted in an end-to-end image and video analysis system, where I contributed to the design of both the classification model and the integration of real-time processing features.\nThroughout the development, I focused on enhancing performance, aiming for high accuracy and efficiency across various detection scenarios. This project allowed me to deepen my skills in computer vision,\nmachine learning, and system optimization, while also working effectively within a team to deliver a functional and high-performing solution.",
+    
+    
+    "Email": "Email",
+    "Social": "Social"
+
+}

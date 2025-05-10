@@ -4,9 +4,9 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en" dir="ltr">
 	<head>
-		<title>Robotics</title>
+		<title data-i18n="Robotics"></title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -16,6 +16,9 @@
 		<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
 		<link rel="manifest" href="/icons/site.webmanifest" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cairo&display=swap" rel="stylesheet">
+
 		<style>
 			.video-container {
 			position: relative;
@@ -39,18 +42,27 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index" class="logo">Haider Khalaf</a>
+						<a href="index" class="logo" data-i18n="myHeader"></a>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li><a href="index">Projects & Work Experience</a></li>
+							<li><a href="index" data-i18n="Projects&WorkExperience"></a></li>
 
 						</ul>
 						<ul class="icons">
 							<li><a href="https://www.linkedin.com/in/haider-khalaf/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">fa-linkedIn</span></a></li>
 							<li><a href="https://github.com/B7SJuba" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li>
+								<div class="language-switch" id="langSwitcher">
+									<div class="switch-ball"></div>
+									<span class="label-en">En</span>
+									<span class="label-ar">عربي</span>
+									</div>
+							</li>
+							
+						
 						</ul>
 					</nav>
 
@@ -60,28 +72,13 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<span class="date">February 2022 - June 2022</span>
-									<h1>Robotics</h1>
-									<p>The Robotics project focused on developing a robotic hand controlled via computer vision, integrating machine learning and image processing.
-										A novel approach was proposed to improve the efficiency of vision-based finger motion control. 
-									   The work has been submitted for a patent and is set for publication as a research article.</p>
+									<span class="date" data-i18n="RoboticsDate"></span>
+									<h1 data-i18n="Robotics"></h1>
+									<p data-i18n="FirstArticle"></p>
 								</header>
 								<div class="image main"><img src="images/robotics.jpg" alt="" /></div>
-								<p>In the Robotics project (Feb 2022 – June 2022), I collaborated with a team to develop an advanced robotic hand controlled using computer vision, 
-									powered by machine learning and image processing techniques. The goal was to create an intuitive system that allowed the robotic hand to replicate human gestures based on real-time visual input.
-									 My role focused on implementing the machine learning algorithms that processed visual data from cameras and translated it into motor commands for the robotic fingers.<br \>
-
-									We utilized a variety of hardware components, including servo motors, an Arduino microcontroller, and other sensors, to facilitate precise movements and control of the robotic hand. 
-									The integration of these hardware components was critical for ensuring smooth, accurate motion and responsiveness to the computer vision system.<br \>
-									
-									A key innovation in this project was the introduction of a novel interaction approach to improve the efficiency of translating vision inputs into robotic finger movements. 
-									We combined different machine learning models to ensure seamless integration between visual detection and robotic motion, improving response time and system accuracy.<br \>
-									
-									The project led to a patent application submission and we are currently preparing a research article for publication. This experience provided me with valuable hands-on exposure to robotics,
-									 servo control, Arduino programming, and machine learning, while enhancing my teamwork, problem-solving, and practical application skills in a multidisciplinary setting.<br \>
-									Here are some videos of the project:
-									 </p>
-									 <p>Demo 1:</p>
+								<p data-i18n="SecondArticle"></p>
+									 <p data-i18n="Demo1"></p>
 									 <div class="video-container">
 										<iframe 
 											src="https://www.youtube-nocookie.com/embed/py64qXxQUnw?si=uETTgZleTEMDhRZd" 
@@ -91,7 +88,7 @@
 											referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 										</iframe>
 									 </div>
-									<p><br/>Demo 2:</p>
+									<p data-i18n="Demo2"><br/></p>
 									<div class="video-container">
 										<iframe 
 											src="https://www.youtube-nocookie.com/embed/87DKZ6mHQSA?si=6HW-CNDYumlx0Bty" 
@@ -102,15 +99,10 @@
 											allowfullscreen>
 										</iframe>
 									</div>
-								<p>In addition to the project development, our research paper on this work was presented at ISB JSB Fukuoka 2023, 
-									detailing our advancements in vision-based robotic hand control. Below is a snapshot of the published paper.	
-								</p>
+								<p data-i18n="ThirdArticle"></p>
 								<div class="image main"><img src="Research/Robotics/RoboticsResearch.png" alt=""/></div>
-								<p>
-									This is the research paper we presented at ISB JSB Fukuoka 2023, where we introduced our approach to robotic hand control using computer vision and machine learning. 
-									More papers related to this project will be shared in the future. Since the official event proceedings are not currently available online,
-									you can view the full collection of published papers from the conference <a href="Research/Robotics/ISB_JSB2023_Program_Abstract_Book.pdf" target="_blank"><b>here</b></a>.
-								</p>
+								<p id="FourthArticle" data-i18n="FourthArticle"></p>
+								<p><a href='Research/Robotics/ISB_JSB2023_Program_Abstract_Book.pdf' target='_blank'><b>ISB JSB Fukuoka 2023 Program & Abstract Book</b></a>.</p>
 									
 							</section>
 
@@ -121,11 +113,11 @@
 						
 						<section class="split contact">
 							<section>
-								<h3>Email</h3>
+								<h3 data-i18n="Email"></h3>
 								<p><a onclick="copyToClipboard('HKhalaf.contact@gmail.com'); return false;">HKhalaf.contact@gmail.com</a></p>
 							</section>
 							<section>
-								<h3>Social</h3>
+								<h3 data-i18n="Social"></h3>
 								<ul class="icons alt">
 									<li><a href="https://www.linkedin.com/in/haider-khalaf/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">fa-linkedIn</span></a></li>
 									<li><a href="https://github.com/B7SJuba" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
@@ -160,6 +152,52 @@
 						});
 				}
 			</script>
+			<script>
 
+				// Language Switcher Logic
+
+				const switcher = document.getElementById("langSwitcher");
+				const ball = switcher.querySelector(".switch-ball");
+
+				// Get saved language or default to English
+				let lang = localStorage.getItem("lang") || "en";
+				setLanguage(lang, false);  // Set initial state without animation
+
+				// Toggle language on click
+				switcher.addEventListener("click", () => {
+					lang = lang === "en" ? "ar" : "en";
+					localStorage.setItem("lang", lang);
+					setLanguage(lang, true);
+				});
+
+				function setLanguage(langCode, animate) {
+					// Position the switch ball
+					if (animate) {
+					ball.style.transition = "left 0.3s ease";
+					} else {
+					ball.style.transition = "none";
+					}
+					ball.style.left = langCode === "ar" ? "0px" : "2px";
+
+					// Set HTML language attributes
+					document.documentElement.setAttribute("lang", langCode);
+					document.documentElement.setAttribute("dir", langCode === "ar" ? "rtl" : "ltr");
+
+					// Load translation file
+					loadLanguage(langCode);
+					
+				}
+
+				function loadLanguage(langCode) {
+					fetch(`robotics_${langCode}.json`)
+					.then(res => res.json())
+					.then(data => {
+						document.querySelectorAll("[data-i18n]").forEach(el => {
+						const key = el.getAttribute("data-i18n");
+						el.textContent = data[key] || key;
+						});
+					});
+				}
+			</script>
 	</body>
 </html>
