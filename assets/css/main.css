@@ -4782,7 +4782,7 @@ input, select, textarea {
 	:lang(ar) #navPanelToggle {
  		 font-family: "Cairo", "Amiri", "Noto Naskh Arabic", serif;
 		 letter-spacing: normal;
-	}
+ 		}
 
 		#navPanelToggle:before {
 			-moz-osx-font-smoothing: grayscale;
