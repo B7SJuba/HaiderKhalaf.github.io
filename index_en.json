@@ -1,0 +1,37 @@
+{
+    "title": "Haider Khalaf Portfolio",
+    "myHeader": "Haider Khalaf",
+    "aboutMe": "Junior Computer Engineer skilled in full-stack development and robotics, delivering integrated hardware-software solutions. Proficient in programming, algorithms, and web technologies, with a focus on quality, collaboration, and timely results",
+    "Continue": "Continue",
+    "View": "View",
+    "ViewProject": "View Project",
+    "Next": "Next",
+    "Email": "Email",
+    "Social": "Social",
+
+
+
+
+    "Project&WorkExperience": "Projects & Work Experience",
+    "AiTrainingDate": "October 2024 - Ongoing",
+    "AiTrainingSpecialist": "AI Training Specialist",
+    "AiTrainingAbout": "As an AI Training Specialist at Outlier.ai, I train AI models using Reinforced Learning with Human Feedback (RLHF) to enhance decision-making and accuracy.\nMy role involves reviewing, optimizing, and improving code in Python, C, C++, and SQL,\nwith a focus on efficiency, error-free implementation, and maintainability.",
+
+    "SmartageDate": "February 2024 - August 2024",
+    "SMARTAGE": "SMARTAGE",
+    "SmartageAbout": "Sensor-Based Monitoring and Adaptation for Geriatric Environments in real time.\nBy integrating IoT devices and machine learning models, it collects, analyzes, and responds to data, ensuring personalized and adaptive solutions that enhance the safety and well-being of elderly individuals.\nThe system leverages advanced positioning algorithms and intuitive dashboards to provide seamless visualization and actionable insights, making it a robust tool for improving quality of life in geriatric settings.",
+    
+    "TurkishTextSummarizerDate": "September 2023 - January 2024",
+    "TurkishTextSummarizer": "Turkish Text Summarizer",
+    "TurkishTextSummarizerAbout": "Full-stack project that uses NLP techniques, including cosine similarity and PageRank, to generate concise summaries of Turkish texts.\nIt features a scalable back-end for efficient processing and an interactive front-end for user-friendly input and visualization,\ndelivering accurate and intuitive summarization results.",
+
+    "ImageProcessingDate": "February 2023 - May 2023",
+    "ImageProcessing": "Image Processing",
+    "ImageProcessingAbout": "The project involved creating a tailored dataset for training machine learning models to detect and classify images.\nIt included developing an automated sorting algorithm, enabling real-time object detection and tracking in videos, and building\na comprehensive end-to-end analysis pipeline optimized for accuracy and efficiency across diverse scenarios.",
+
+    "RoboticsDate": "February 2022 - June 2022",
+    "Robotics": "Robotics",
+    "RoboticsAbout": "The Robotics project focused on developing a robotic hand controlled via computer vision, integrating machine learning and image processing.\nA novel approach was proposed to improve the efficiency of vision-based finger motion control.\nThe work has been submitted for a patent and is set for publication as a research article."
+
+
+}
