@@ -4877,10 +4877,11 @@ input, select, textarea {
 					padding: 0.75rem 0;
 					text-transform: uppercase;
 				}
-					/* Arabic-specific font override */
-					:lang(ar) #navPanel .links {
-						font-family: "Cairo", "Amiri", "Noto Naskh Arabic", serif;
-					}
+				/* Arabic-specific font override */
+				:lang(ar) #navPanel .links li a {
+					font-family: "Amiri", serif;
+					letter-spacing: normal;
+				}
 
 				#navPanel .links li:first-child {
 					border-top: 0;
