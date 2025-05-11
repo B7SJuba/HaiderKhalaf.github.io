@@ -2429,7 +2429,7 @@ input, select, textarea {
 		align-items: center;
 		justify-content: space-between;
 		padding: 100 12px;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Amiri", serif;
 		font-weight: bold;
 		color: #ffffff;
 		cursor: pointer;
@@ -2437,11 +2437,7 @@ input, select, textarea {
 		user-select: none;
 		transition: background 0.3s;
 	}
-	/* Arabic-specific font override */
-	:lang(ar) .language-switch {
- 		 font-family: "Cairo", "Amiri", "Noto Naskh Arabic", serif;
-	}
-
+	
 	.language-switch:hover{
 		border: 2px solid #18bfef;
 		color: #18bfef !important;
@@ -3889,6 +3885,12 @@ input, select, textarea {
 		max-width: 72rem;
 		z-index: 2;
 	}
+	/* Arabic-specific font override 
+	Here we control the padding of the navigator. 
+	*/
+	:lang(ar) #nav{
+ 		 padding: 0rem 0rem 0rem 2rem;
+ 		}
 
 		#nav ul.divided li {
 			border-top-color: #ffffff;
