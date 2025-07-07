@@ -17,15 +17,15 @@
     "AiTrainingSpecialist": "AI Training Specialist",
     "AiTrainingAbout": "As an AI Training Specialist at Outlier.ai, I train AI models using Reinforced Learning with Human Feedback (RLHF) to enhance decision-making and accuracy.\nMy role involves reviewing, optimizing, and improving code in Python, C, C++, and SQL,\nwith a focus on efficiency, error-free implementation, and maintainability.",
 
-    "SmartageDate": "February 2024 - August 2024",
+    "SmartageDate": "February 2024 - December 2024",
     "SMARTAGE": "SMARTAGE",
     "SmartageAbout": "Sensor-Based Monitoring and Adaptation for Geriatric Environments in real time.\nBy integrating IoT devices and machine learning models, it collects, analyzes, and responds to data, ensuring personalized and adaptive solutions that enhance the safety and well-being of elderly individuals.\nThe system leverages advanced positioning algorithms and intuitive dashboards to provide seamless visualization and actionable insights, making it a robust tool for improving quality of life in geriatric settings.",
     
-    "TurkishTextSummarizerDate": "September 2023 - January 2024",
+    "TurkishTextSummarizerDate": "February 2023 - January 2024",
     "TurkishTextSummarizer": "Turkish Text Summarizer",
     "TurkishTextSummarizerAbout": "Full-stack project that uses NLP techniques, including cosine similarity and PageRank, to generate concise summaries of Turkish texts.\nIt features a scalable back-end for efficient processing and an interactive front-end for user-friendly input and visualization,\ndelivering accurate and intuitive summarization results.",
 
-    "ImageProcessingDate": "February 2023 - May 2023",
+    "ImageProcessingDate": "February 2023 - January 2024",
     "ImageProcessing": "Image Processing",
     "ImageProcessingAbout": "The project involved creating a tailored dataset for training machine learning models to detect and classify images.\nIt included developing an automated sorting algorithm, enabling real-time object detection and tracking in videos, and building\na comprehensive end-to-end analysis pipeline optimized for accuracy and efficiency across diverse scenarios.",
 
