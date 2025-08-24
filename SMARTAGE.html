@@ -164,10 +164,12 @@
 			<script>
 				document.addEventListener("DOMContentLoaded", () => {
  			    // Get lang parameter (default to English)
-  				const urlParams = new URLSearchParams(window.location.search);
+				const paramsString = window.location.search;
+  				const urlParams = new URLSearchParams(paramsString);
 				// Get saved language or default to English
 				let localLang = localStorage.getItem("lang");
   				const lang =  urlParams.get("lang") || localLang ;
+				console.log(lang);
 
 				// Load JSON file based on language
 				fetch(`smartage_${lang}.json`)

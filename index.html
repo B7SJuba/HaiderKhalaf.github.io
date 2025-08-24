@@ -305,7 +305,7 @@
 				// Get saved language or default to English
 				let localLang = localStorage.getItem("lang");
   				const lang =  urlParams.get("lang") || localLang ;
-
+				console.log(lang);
 
 				// Load JSON file based on language
 				fetch(`index_${lang}.json`)
