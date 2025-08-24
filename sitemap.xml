@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Root -->
+  <url>
+    <loc>https://haiderkhalaf.com/?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://haiderkhalaf.com/" />
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://haiderkhalaf.com/?lang=ar</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://haiderkhalaf.com/" />
+    <priority>1.00</priority>
+  </url>
+  <!---->
+
+  <url>
+    <loc>https://haiderkhalaf.com/AITrainingSpecialist/?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/AITrainingSpecialist/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/AITrainingSpecialist/?lang=ar" />
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://haiderkhalaf.com/AITrainingSpecialist/?lang=ar</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/AITrainingSpecialist/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/AITrainingSpecialist/?lang=ar" />
+    <priority>0.80</priority>
+  </url>
+
+
+ <url>
+    <loc>https://haiderkhalaf.com/SMARTAGE/?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/SMARTAGE/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/SMARTAGE/?lang=ar" />
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://haiderkhalaf.com/SMARTAGE/?lang=ar</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/SMARTAGE/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/SMARTAGE/?lang=ar" />
+    <priority>0.80</priority>
+  </url>
+
+
+ <url>
+    <loc>https://haiderkhalaf.com/TurkishTextSummarizer/?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/TurkishTextSummarizer/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/TurkishTextSummarizer/?lang=ar" />
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://haiderkhalaf.com/TurkishTextSummarizer/?lang=ar</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/TurkishTextSummarizer/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/TurkishTextSummarizer/?lang=ar" />
+    <priority>0.80</priority>
+  </url>
+
+
+ <url>
+    <loc>https://haiderkhalaf.com/ImageProcessing/?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/ImageProcessing/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/ImageProcessing/?lang=ar" />
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://haiderkhalaf.com/ImageProcessing/?lang=ar</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/ImageProcessing/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/ImageProcessing/?lang=ar" />
+    <priority>0.80</priority>
+  </url>
+
+
+   <url>
+    <loc>https://haiderkhalaf.com/Robotics/?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/Robotics/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/Robotics/?lang=ar" />
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://haiderkhalaf.com/Robotics/?lang=ar</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/Robotics/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/Robotics/?lang=ar" />
+    <priority>0.80</priority>
+  </url>
+
+  <!-- PDF -->
+  <url>
+    <loc>https://haiderkhalaf.com/Research/Robotics/ISB_JSB2023_Program_Abstract_Book.pdf</loc>
+    <priority>0.64</priority>
+  </url>
+
+</urlset>
+
+
