@@ -1,0 +1,375 @@
+[33mcommit 4f334c2c417967e888e9d3500177aa086fe12053[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Haider Khalaf <7aidar.nawaf@gmail.com>
+Date:   Sun Aug 24 15:56:16 2025 +0300
+
+    Minor fix to queried language
+
+[33mcommit 93193979c5017a22cf16f082f2b291fc74fc63c3[m
+Author: Haider Khalaf <7aidar.nawaf@gmail.com>
+Date:   Sun Aug 24 15:42:48 2025 +0300
+
+    Direction fix for Arabic content
+
+[33mcommit 4d9e27b24b1f96bec18c6b2909798ff23f060175[m
+Author: Haider Khalaf <7aidar.nawaf@gmail.com>
+Date:   Sun Aug 24 15:31:16 2025 +0300
+
+    fixed parameter priority
+
+[33mcommit 02412afda4726a0d7dc60a54b78fd8178f8198f1[m
+Author: Haider Khalaf <7aidar.nawaf@gmail.com>
+Date:   Sun Aug 24 04:40:24 2025 +0300
+
+    Check Local Lang
+    
+    Started checking if the user has selected a language before to render directly instead of starting with English every time
+
+[33mcommit d4a00fe034f10cafba45779917e5a5ba22dc6b22[m
+Author: Haider Khalaf <7aidar.nawaf@gmail.com>
+Date:   Sun Aug 24 04:23:04 2025 +0300
+
+    Multilingual Crawlability  and Sitemap
+    
+    Added Sitemap and adjusted the website for crawlers to be able to detect multiple languages by querying
+
+[33mcommit dab70f7d63a57ad4a2b119ee7ef10488497674e7[m
+Author: Haider Khalaf <7aidar.nawaf@gmail.com>
+Date:   Mon Jul 7 15:48:22 2025 +0300
+
+    Fix Dates
+    
+    Fixed some issues with the project dates.
+
+[33mcommit d4b09d338f92f9e2cac836a58524aae64d69a2ac[m
+Author: Haider Khalaf <7aidar.nawaf@gmail.com>
+Date:   Sun May 11 21:24:59 2025 +0300
+
+    Adjusted Sub-menu letter spacing
+
+[33mcommit 5107a8029cb38ed9c51b619a896c20705e752ca2[m
+Author: Haider Khalaf <7aidar.nawaf@gmail.com>
+Date:   Sun May 11 21:16:07 2025 +0300
+
+    Navigator & Language Switcher
+    
+    Adjusted the padding in navigation section when switching from English (ltr) to Arabic (rtl). Changed the font of the language switcher as well.
+
+[33mcommit 48d4ef344c7f11897744431677fe247f9c2abfbd[m
+Author: Haider Khalaf <7aidar.nawaf@gmail.com>
+Date:   Sat May 10 23:56:06 2025 +0300
+
+    Adjusted footer
+
+[33mcommit 84ecd998f80eb25da56a477e4fc3b17d8f1d3b05[m
+Author: Haider Khalaf <7aidar.nawaf@gmail.com>
+Date:   Sat May 10 23:27:56 2025 +0300
+
+    Update main.css
+
+[33mcommit f358103ecaa1d7292658a20f24421b9cd3f61022[m
+Author: Haider Khalaf <7aidar.nawaf@gmail.com>
+Date:   Sat May 10 23:25:17 2025 +0300
+
+    The addition of Arabic language support
+    
+    I've created .json files to store the content in. Added a script to switch the content language between English and Arabic.
+
+[33mcommit 6809420d7ced73568c03ee1bf9241efb27626f54[m
+Author: Haider Khalaf <7aidar.nawaf@gmail.com>
+Date:   Sat May 10 06:58:55 2025 +0300
+
+    Created .json file to support Arabic
+
+[33mcommit bdee9c5a5e15fd9c867bfded623b4df33bd92627[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Tue Feb 18 16:12:04 2025 +0300
+
+    Update index.html
+    
+    Added typing effect for name
+
+[33mcommit 5364a3478381f82c7c06b61610de87415a9037a3[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Thu Feb 13 23:57:33 2025 +0300
+
+    Update Robotics.html
+    
+    Made the embedded videos display dynamically
+
+[33mcommit 17191640192a34e53b01c33bb38b9171374df1ff[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Thu Feb 13 17:19:58 2025 +0300
+
+    Update Robotics.html
+    
+    Embedded the Youtube demos
+
+[33mcommit 63536dd35f2ee084c06742768c1dead9dc7a284a[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Tue Feb 11 20:57:39 2025 +0300
+
+    Update Robotics.html
+
+[33mcommit 8beee32c0af476bfb8327554974953ba11984e31[m
+Author: Haider Khalaf <7aidar.nawaf@gmail.com>
+Date:   Tue Feb 11 20:50:49 2025 +0300
+
+    Add research documnets
+
+[33mcommit 17b4441294a3470cdbc0c0b5dcce45841c87e195[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Tue Feb 11 19:57:15 2025 +0300
+
+    Update Robotics.html
+
+[33mcommit 6be10f64d0c7e8c3f35c3976703d964e86e8abe1[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Tue Feb 11 19:28:29 2025 +0300
+
+    Create documents
+
+[33mcommit 07de43ac9ee6422562654850aba27020b167a872[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Tue Feb 11 19:14:08 2025 +0300
+
+    Update TurkishTextSummarizer.html
+
+[33mcommit fed97c7b57fad83b46c04f2586626062a68ee724[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Tue Feb 11 19:05:36 2025 +0300
+
+    Update SMARTAGE.html
+
+[33mcommit cb0f76c679bf821c84f656836e315e1004b44fd3[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Tue Feb 11 18:22:05 2025 +0300
+
+    Update AITrainingSpecialist.html
+
+[33mcommit 19112bbb5d79358e164e5ec7a80ba58646f4ed59[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Tue Feb 11 18:19:35 2025 +0300
+
+    Update index.html
+
+[33mcommit 0271613112df5a26e853e162e3a08195d21f8297[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Tue Jan 14 13:54:03 2025 +0300
+
+    Update SMARTAGE.html
+    
+    Fixed typo in title
+
+[33mcommit c9f73a7e1383d771655d0fec83974372253f60d3[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Tue Jan 14 12:07:13 2025 +0300
+
+    Update SMARTAGE.html
+    
+    Adjusted dates
+
+[33mcommit 51ffed79516640aeb7d249fb981a81ef01ab576e[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Mon Jan 6 00:40:14 2025 +0300
+
+    Update ImageProcessing.html
+    
+    Adjusted the dates
+
+[33mcommit 88229083473f75b9cb4228584366130d7ba110bb[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Mon Jan 6 00:39:33 2025 +0300
+
+    Update index.html
+    
+    Adjusted the dates
+
+[33mcommit ba9cda6b92b25ae80ad1ba4ff98289c7b948eef8[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Sun Jan 5 22:46:38 2025 +0300
+
+    Update TurkishTextSummarizer.html
+    
+    Adjusted the dates
+
+[33mcommit 73636393f7d29ec0767e96140cd112533ed96a22[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Sun Jan 5 22:45:35 2025 +0300
+
+    Update SMARTAGE.html
+    
+    Adjusted the dates
+
+[33mcommit 451f2854af43639ef36d7ef089c154ed9562e361[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Sun Jan 5 22:43:38 2025 +0300
+
+    Update index.html
+    
+    Adjusted the dates
+
+[33mcommit 6058317f3cb73f6817d393a34f86ba9b97e6956f[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Sun Dec 29 17:53:57 2024 +0300
+
+    Delete elements.html
+
+[33mcommit f9791e46b157a0532e40a5be7375cc42952c4562[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Sun Dec 29 17:49:30 2024 +0300
+
+    Update TurkishTextSummarizer.html
+    
+    Removed .html extension to prevent it from being displayed at the end of the URL.
+
+[33mcommit cf6adb34365458018c3ae4d1909fe3eae3c0f6f2[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Sun Dec 29 17:48:36 2024 +0300
+
+    Update SMARTAGE.html
+    
+    Removed .html extension to prevent it from showing up at the end of the URL
+
+[33mcommit 940ef53a263eb2073103de4711124352578ae228[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Sun Dec 29 17:47:58 2024 +0300
+
+    Update Robotics.html
+    
+    Removed .html extension to not show up at the end of the URL
+
+[33mcommit 2bc060a3bf335c5fde11d3a1ebe9c2fc1b6949f8[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Sun Dec 29 17:47:18 2024 +0300
+
+    Update ImageProcessing.html
+    
+    Removed .html extension to avoid it showing up at the end of the URL.
+
+[33mcommit 9684ff5b731b13980afd362356d6918793a3a8bf[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Sun Dec 29 17:46:29 2024 +0300
+
+    Update AITrainingSpecialist.html
+    
+    Removed .html extension to avoid it from showing up in the URL
+
+[33mcommit 357cfecf23338edfdc98651aaafaf4855dc70d7e[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Sun Dec 29 17:44:56 2024 +0300
+
+    Update index.html
+    
+    Removed .html extension after the addition of .htaccess file in order to not show .html extension at the end of the URL
+
+[33mcommit e7555e8134027fe0c7179b3c751ca68057d1238b[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Sun Dec 29 17:37:38 2024 +0300
+
+    Update README.md
+
+[33mcommit 9e1120f567962639b530b2da8eb6ad08bff756e2[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Sun Dec 29 17:27:39 2024 +0300
+
+    Update and rename README.txt to README.md
+    
+    Changed the file extension from .txt to .md
+
+[33mcommit 0c9a33a65383b2325b3d2b6cad7b563935566b17[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Sun Dec 29 17:14:52 2024 +0300
+
+    Add files via upload
+
+[33mcommit f4c5180b4efff68de6cfb2fd2c1f1b6d8a6f9012[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Sun Dec 29 17:12:42 2024 +0300
+
+    Add files via upload
+    
+    Updated README file
+
+[33mcommit b8cdd18f6a789f0c7ca410d6e9277b265b89f8c1[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Sun Dec 29 17:05:29 2024 +0300
+
+    Add files via upload
+    
+    Added `.htaccess` file to remove `.html` extension from the end of the URL.
+
+[33mcommit 2d56a6d9b6b2aca015275e3f130d666ba61d4e8d[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Sun Dec 22 16:00:01 2024 +0300
+
+    Add files via upload
+    
+    The addition of the newly created logo.
+
+[33mcommit 9c89fe883ee598dbcf4359040518ff4ce7a9ac2c[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Wed Dec 18 12:04:05 2024 +0300
+
+    Add files via upload
+
+[33mcommit 09df8a50f07c16715e153fe0577c4c0c5d3fd701[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Wed Dec 18 11:07:24 2024 +0300
+
+    Update CNAME
+
+[33mcommit 41ec923a50c1de12dc2cfc7b09db2572a74096e3[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Wed Dec 18 10:50:49 2024 +0300
+
+    Create CNAME
+
+[33mcommit cf8b66a8f1b5ab07e729ae3d8ca29651ac92ca07[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Wed Dec 18 10:39:28 2024 +0300
+
+    Delete CNAME
+
+[33mcommit fef6aff7ced2fb77343dc71214f70027f3c44c07[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Wed Dec 18 10:16:56 2024 +0300
+
+    Create CNAME
+
+[33mcommit 9111a86247e7e47eb38dfac5eeeb5e2dd14b2a78[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Wed Dec 18 10:15:52 2024 +0300
+
+    Delete CNAME
+
+[33mcommit 847c489ddf8f325714fc0abaf8fd441a9b978b8e[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Wed Dec 18 10:13:50 2024 +0300
+
+    Update CNAME
+
+[33mcommit 6b2b31d0f590c1fc88d37bfac9a2e60c76a519c6[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Wed Dec 18 10:13:27 2024 +0300
+
+    Create CNAME
+
+[33mcommit dbcb0f7983f790802b92a884ed99163b29b98b88[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Tue Dec 17 17:18:49 2024 +0300
+
+    Add files via upload
+
+[33mcommit a2d0cdce0b2b79a4d53bdc296b96043693d35fbd[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Tue Dec 17 17:12:50 2024 +0300
+
+    Update index.html
+
+[33mcommit 140a76937bdba1332352f4f269c9437b325b3c9f[m
+Author: Haider Khalaf <104263580+B7SJuba@users.noreply.github.com>
+Date:   Tue Dec 17 17:03:22 2024 +0300
+
+    Add files via upload
+    
+    Initial Commit
