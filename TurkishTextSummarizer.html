@@ -166,7 +166,7 @@
   				const urlParams = new URLSearchParams(window.location.search);
 				// Get saved language or default to English
 				let localLang = localStorage.getItem("lang");
-  				const lang = localLang || urlParams.get("lang");
+  				const lang =  urlParams.get("lang") || localLang ;
 
 				// Load JSON file based on language
 				fetch(`turkishtextsummarizer_${lang}.json`)
