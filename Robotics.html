@@ -205,7 +205,9 @@
 				document.addEventListener("DOMContentLoaded", () => {
  			    // Get lang parameter (default to English)
   				const urlParams = new URLSearchParams(window.location.search);
-  				const lang = urlParams.get("lang") || "en";
+				// Get saved language or default to English
+				let localLang = localStorage.getItem("lang");
+  				const lang = localLang || urlParams.get("lang");
 
 				// Load JSON file based on language
 				fetch(`robotics_${lang}.json`)
