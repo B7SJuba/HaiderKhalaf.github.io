@@ -119,8 +119,14 @@
 				const switcher = document.getElementById("langSwitcher");
 				const ball = switcher.querySelector(".switch-ball");
 
-				// Get saved language or default to English
-				let lang = localStorage.getItem("lang") || "en";
+				// To read the url query
+				document.addEventListener("DOMContentLoaded", () => {
+ 			    // Get lang parameter (default to English)
+  				const urlParams = new URLSearchParams(window.location.search);
+				const Queriedlang =  urlParams.get("lang");
+
+				// Get Query language or saved locally default English
+				let lang = Queriedlang || localStorage.getItem("lang") || "en";
 				setLanguage(lang, false);  // Set initial state without animation
 
 				// Toggle language on click
