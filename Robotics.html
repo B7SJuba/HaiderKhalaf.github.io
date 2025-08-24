@@ -222,13 +222,10 @@
 
 					// Set <html lang="xx"> for SEO
 					document.documentElement.lang = lang;
+					document.documentElement.setAttribute("dir", lang === "ar" ? "rtl" : "ltr");	
 					})
 					.catch(err => console.error("Error loading language file:", err));
 					});
-					// Set HTML language attributes
-					document.documentElement.setAttribute("lang", lang);
-					document.documentElement.setAttribute("dir", lang === "ar" ? "rtl" : "ltr");
-
 			</script>
 	</body>
 </html>
