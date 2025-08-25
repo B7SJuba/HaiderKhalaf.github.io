@@ -18,8 +18,8 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cairo&display=swap" rel="stylesheet">
-		<link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/ImageProcessing/?lang=en" />
-		<link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/ImageProcessing/?lang=ar" />
+		<link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/ImageProcessing?lang=en" />
+		<link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/ImageProcessing?lang=ar" />
 
 
 	</head>
@@ -113,6 +113,7 @@
 						});
 				}
 			</script>
+			
 			<script>
 
 				// Language Switcher Logic
@@ -160,11 +161,16 @@
 					});
 				}
 			</script>
+
 			<script>
 				document.addEventListener("DOMContentLoaded", () => {
  			    // Get lang parameter (default to English)
-  				const urlParams = new URLSearchParams(window.location.search);
-  				const lang = urlParams.get("lang") || "en";
+				const paramsString = window.location.search;
+  				const urlParams = new URLSearchParams(paramsString);
+				// Get saved language or default to English
+				let localLang = localStorage.getItem("lang");
+  				const lang =  urlParams.get("lang") || localLang ;
+				console.log(lang);
 
 				// Load JSON file based on language
 				fetch(`imageprocessing_${lang}.json`)
@@ -179,10 +185,10 @@
 
 					// Set <html lang="xx"> for SEO
 					document.documentElement.lang = lang;
+					document.documentElement.setAttribute("dir", lang === "ar" ? "rtl" : "ltr");	
 					})
 					.catch(err => console.error("Error loading language file:", err));
 					});
-
 			</script>
 
 	</body>
