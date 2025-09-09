@@ -1,0 +1,12 @@
+{
+    "SMARTAGE": "SMARTAGE",
+    "myHeader": "Haider Khalaf",
+    "Projects&WorkExperience": "Projeler ve İş Deneyimi",
+
+    "SmartageDate": "Şubat 2024 - Aralık 2024",
+    "FirstArticle": "Geriyatrik Ortamlar için Sensör Tabanlı İzleme ve Adaptasyon, gerçek zamanlı.\nIoT cihazları ve makine öğrenimi modellerini entegre ederek veri toplar, analiz eder ve yanıt verir; yaşlı bireylerin güvenliğini ve refahını artıran kişiselleştirilmiş ve uyarlanabilir çözümler sağlar.\nSistem, gelişmiş konumlandırma algoritmaları ve sezgisel panolar kullanarak sorunsuz görselleştirme ve uygulanabilir içgörüler sunar, geriyatrik ortamlarda yaşam kalitesini iyileştirmek için güçlü bir araç haline gelir.",
+    "SecondArticle": "Nottingham Trent Üniversitesi'nde (NTU) Şubat 2024 - Aralık 2024 tarihleri arasında Yazılım Mühendisliği Stajım sırasında SMARTAGE projesine katkıda bulundum,\nbu proje, IoT cihazları ve makine öğrenimi modellerini entegre eden gerçek zamanlı bir izleme sistemi ile yaşlı bireylerin güvenliği ve refahını artırmayı hedefliyordu.\nProjenin önemli bir yönü, ESP32 kartları ve UWB (Ultra Geniş Bant) teknolojisi kullanarak IoT cihazları geliştirmekti; bu cihazlar, yaşlı bireylerin hassas iç mekan konumlandırmasını ve gerçek zamanlı pozisyon takibini sağlıyordu. Python ile trilaterasyon algoritmalarını uyguladım,\nbu cihazlardan elde edilen verileri kullanarak bireylerin konumunu doğru bir şekilde izledim ve sistemin yanıtlarını gerçek zamanlı koşullara göre uyarladım. Ayrıca, toplanan veriler, yaşlı kullanıcıların konforunu ve güvenliğini sağlamak için kişiselleştirilmiş, uyarlanabilir çözümler oluşturmakta kullanıldı.\nAyrıca, Turtle Graphics kullanarak etkileşimli panoların tasarımı ve geliştirilmesinden sorumluydum; bu panolar sistem tarafından toplanan verilerin kullanıcı dostu görselleştirilmesini sağladı.\nBu panolar, bakım sağlayıcıların ortamı izlemelerini ve veriye dayalı proaktif önlemler almalarını kolaylaştıran uygulanabilir içgörüler sundu. Bu proje, UWB ve makine öğrenimi dahil en son teknolojiler üzerinde çalışmama olanak sağladı ve geriyatrik bakımda önemli sosyal etkiye sahip bir çözüme katkıda bulunmamı sağladı.\nİşte projenin ilk aşamalarını gösteren LinkedIn’de paylaşılan bir demo:",
+    
+    "Email": "E-posta",
+    "Social": "Sosyal"
+}

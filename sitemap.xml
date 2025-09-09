@@ -7,6 +7,7 @@
     <loc>https://haiderkhalaf.com/?lang=en</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/?lang=en" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://haiderkhalaf.com/?lang=tr" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://haiderkhalaf.com/" />
     <priority>1.00</priority>
   </url>
@@ -15,15 +16,26 @@
     <loc>https://haiderkhalaf.com/?lang=ar</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/?lang=en" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://haiderkhalaf.com/?lang=tr" />  
     <xhtml:link rel="alternate" hreflang="x-default" href="https://haiderkhalaf.com/" />
     <priority>1.00</priority>
   </url>
-  <!---->
 
+  <url>
+    <loc>https://haiderkhalaf.com/?lang=tr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://haiderkhalaf.com/?lang=tr" />  
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://haiderkhalaf.com/" />
+    <priority>1.00</priority>
+  </url>
+  
+  <!-- AiTraining -->
   <url>
     <loc>https://haiderkhalaf.com/AITrainingSpecialist?lang=en</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/AITrainingSpecialist?lang=en" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/AITrainingSpecialist?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://haiderkhalaf.com/AITrainingSpecialist?lang=tr" />
     <priority>0.80</priority>
   </url>
 
@@ -31,14 +43,24 @@
     <loc>https://haiderkhalaf.com/AITrainingSpecialist?lang=ar</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/AITrainingSpecialist?lang=en" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/AITrainingSpecialist?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://haiderkhalaf.com/AITrainingSpecialist?lang=tr" />
     <priority>0.80</priority>
   </url>
 
+  <url>
+    <loc>https://haiderkhalaf.com/AITrainingSpecialist?lang=tr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/AITrainingSpecialist?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/AITrainingSpecialist?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://haiderkhalaf.com/AITrainingSpecialist?lang=tr" />
+    <priority>0.80</priority>
+  </url>
 
+<!-- SMARTAGE -->
  <url>
     <loc>https://haiderkhalaf.com/SMARTAGE?lang=en</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/SMARTAGE?lang=en" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/SMARTAGE?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://haiderkhalaf.com/SMARTAGE?lang=tr" />
     <priority>0.80</priority>
   </url>
 
@@ -46,14 +68,24 @@
     <loc>https://haiderkhalaf.com/SMARTAGE?lang=ar</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/SMARTAGE?lang=en" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/SMARTAGE?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://haiderkhalaf.com/SMARTAGE?lang=tr" />
     <priority>0.80</priority>
   </url>
 
+  <url>
+    <loc>https://haiderkhalaf.com/SMARTAGE?lang=tr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/SMARTAGE?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/SMARTAGE?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://haiderkhalaf.com/SMARTAGE?lang=tr" />
+    <priority>0.80</priority>
+  </url>
 
+<!-- TurkishTextSummarizer -->
  <url>
     <loc>https://haiderkhalaf.com/TurkishTextSummarizer?lang=en</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/TurkishTextSummarizer?lang=en" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/TurkishTextSummarizer?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://haiderkhalaf.com/TurkishTextSummarizer?lang=tr" />
     <priority>0.80</priority>
   </url>
 
@@ -61,14 +93,24 @@
     <loc>https://haiderkhalaf.com/TurkishTextSummarizer?lang=ar</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/TurkishTextSummarizer?lang=en" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/TurkishTextSummarizer?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://haiderkhalaf.com/TurkishTextSummarizer?lang=tr" />
     <priority>0.80</priority>
   </url>
 
+  <url>
+    <loc>https://haiderkhalaf.com/TurkishTextSummarizer?lang=tr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/TurkishTextSummarizer?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/TurkishTextSummarizer?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://haiderkhalaf.com/TurkishTextSummarizer?lang=tr" />
+    <priority>0.80</priority>
+  </url>
 
+<!-- ImageProcessing -->
  <url>
     <loc>https://haiderkhalaf.com/ImageProcessing?lang=en</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/ImageProcessing?lang=en" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/ImageProcessing?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://haiderkhalaf.com/ImageProcessing?lang=tr" />
     <priority>0.80</priority>
   </url>
 
@@ -76,14 +118,24 @@
     <loc>https://haiderkhalaf.com/ImageProcessing?lang=ar</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/ImageProcessing?lang=en" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/ImageProcessing?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://haiderkhalaf.com/ImageProcessing?lang=tr" />
     <priority>0.80</priority>
   </url>
 
+  <url>
+    <loc>https://haiderkhalaf.com/ImageProcessing?lang=tr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/ImageProcessing?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/ImageProcessing?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://haiderkhalaf.com/ImageProcessing?lang=tr" />
+    <priority>0.80</priority>
+  </url>
 
+<!-- Robotics -->
    <url>
     <loc>https://haiderkhalaf.com/Robotics?lang=en</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/Robotics?lang=en" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/Robotics?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://haiderkhalaf.com/Robotics?lang=tr" />
     <priority>0.80</priority>
   </url>
 
@@ -91,6 +143,15 @@
     <loc>https://haiderkhalaf.com/Robotics?lang=ar</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/Robotics?lang=en" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/Robotics?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://haiderkhalaf.com/Robotics?lang=tr" />
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://haiderkhalaf.com/Robotics?lang=tr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/Robotics?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/Robotics?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://haiderkhalaf.com/Robotics?lang=tr" />
     <priority>0.80</priority>
   </url>
 

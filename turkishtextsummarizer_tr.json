@@ -1,0 +1,12 @@
+{
+    "TurkishTextSummarizer": "Türkçe Metin Özetleyici",
+    "myHeader": "Haider Khalaf",
+    "Projects&WorkExperience": "Projeler ve İş Deneyimi",
+    
+    "TurkishTextSummarizerDate": "Şubat 2023 - Ocak 2024",
+    "FirstArticle": "Türkçe metinlerin özlü özetlerini üretmek için kosinüs benzerliği ve PageRank dahil NLP tekniklerini kullanan full-stack bir proje.\nVerimli işlem için ölçeklenebilir bir arka uç ve kullanıcı dostu giriş ve görselleştirme için etkileşimli bir ön uç içerir,\ndoğru ve sezgisel özetleme sonuçları sunar.",
+    "SecondArticle": "Türkçe metinlerin özetlenmesini otomatikleştirmeyi amaçlayan full-stack bir çözüm geliştirdim ve bunun için Doğal Dil İşleme (NLP) tekniklerini kullandım.\nProjenin temelini NLP algoritması oluşturuyordu; burada, metinden en alakalı bilgileri sıralamak ve çıkarmak için kosinüs benzerliği ve PageRank kullanan bir Türkçe metin özetleme modeli oluşturdum.\nBu yaklaşım, özellikle Türkçe içerik için daha doğru ve anlamlı bir özetleme süreci sağladı.\nArka uçta, büyük metin girdileri için ölçeklenebilirlik ve doğruluk sağlamak üzere metin işleme hattını optimize etmeye odaklandım. Özetlemeyi iyileştirmek için makine öğrenimi modellerini entegre ettim,\nmetin karmaşıklığına göre dinamik ayarlamalara izin verdim. Ön uçta ise kullanıcıların metin girişi yapabileceği, özetleri görüntüleyebileceği ve özetlenen içeriğin görselleştirmeleriyle etkileşim kurabileceği duyarlı bir web arayüzü oluşturdum.\nProje, arka uç işlemleri ile ön uç arayüzünü sorunsuz bir şekilde bağlayan full-stack bir uygulama olarak inşa edildi, böylece kullanıcı deneyimi akıcı ve sezgisel oldu. Kullanıcı odaklı tasarıma odaklanarak,\nsistemin gezinmesi kolay hale geldi ve farklı teknik uzmanlıktaki kullanıcılar için erişilebilir oldu. Bu proje sadece NLP ve full-stack geliştirme becerilerimi geliştirmekle kalmadı,\naynı zamanda gelişmiş metin işleme teknikleriyle gerçek dünya uygulamaları oluşturma konusundaki anlayışımı derinleştirdi.\nİşte projenin depoları için bağlantı:",
+    
+    "Email": "E-posta",
+    "Social": "Sosyal"
+}

@@ -1,0 +1,16 @@
+{
+    "Robotics": "Robotik",
+    "myHeader": "Haider Khalaf",
+    "Projects&WorkExperience": "Projeler ve İş Deneyimi",
+    
+    "RoboticsDate": "Şubat 2022 - Haziran 2022",
+    "FirstArticle": "Robotik projesi, bilgisayarla görme yoluyla kontrol edilen, makine öğrenmesi ve görüntü işleme ile entegre edilmiş bir robotik el geliştirmeye odaklanmıştır.\nGörmeye dayalı parmak hareketi kontrolünün verimliliğini artırmak için yeni bir yaklaşım önerilmiştir.\nÇalışma için patent başvurusu yapılmış olup, bir araştırma makalesi olarak yayımlanması planlanmaktadır.",
+    "SecondArticle": "Robotik projesinde (Şubat 2022 – Haziran 2022), bilgisayarla görme ile kontrol edilen gelişmiş bir robotik el geliştirmek üzere bir ekiple iş birliği yaptım;\nbu sistem makine öğrenmesi ve görüntü işleme teknikleriyle desteklenmiştir. Amaç, robotik elin gerçek zamanlı görsel girdilere dayanarak insan hareketlerini taklit edebilen sezgisel bir sistem oluşturulmasıydı.\nBenim rolüm, kameralardan gelen görsel verileri işleyen ve bunları robotik parmaklar için motor komutlarına dönüştüren makine öğrenmesi algoritmalarını uygulamaya odaklanmaktı.\nRobotik elin hassas hareketlerini ve kontrolünü sağlamak için servo motorlar, Arduino mikrodenetleyici ve diğer sensörler dahil olmak üzere çeşitli donanım bileşenleri kullandık.\nBu donanım bileşenlerinin entegrasyonu, bilgisayarla görme sistemine yanıt veren akıcı, doğru hareketlerin sağlanması açısından kritik öneme sahipti.\nProjede önemli bir yenilik, görsel girdilerin robotik parmak hareketlerine çevrilmesinin verimliliğini artırmak için yeni bir etkileşim yaklaşımının tanıtılmasıydı.\nFarklı makine öğrenmesi modellerini birleştirerek görsel tespit ile robotik hareket arasında sorunsuz entegrasyon sağladık, yanıt süresini ve sistem doğruluğunu geliştirdik.\nProje, bir patent başvurusuna yol açtı ve şu anda yayımlanmak üzere bir araştırma makalesi hazırlamaktayız. Bu deneyim bana robotik,\nservo kontrolü, Arduino programlama ve makine öğrenmesi konularında değerli pratik bilgi sağladı; ayrıca disiplinler arası bir ortamda ekip çalışması, problem çözme ve uygulamalı becerilerimi geliştirdi.\nİşte projenin bazı videoları:",
+    "ThirdArticle": "Proje geliştirmeye ek olarak, bu çalışmaya ilişkin araştırma makalemiz 2023 yılında ISB JSB Fukuoka’da sunuldu.\nMakalede, görmeye dayalı robotik el kontrolündeki ilerlemelerimizi detaylandırdık. Aşağıda yayımlanan makalenin bir görüntüsü yer almaktadır.",
+    "FourthArticle": "Bu, 2023 yılında ISB JSB Fukuoka’da sunduğumuz araştırma makalesidir. Çalışmada, bilgisayarla görme ve makine öğrenmesi kullanarak robotik el kontrolüne yönelik yaklaşımımızı tanıttık.\nBu projeyle ilgili daha fazla makale gelecekte paylaşılacaktır. Resmî etkinlik bildirileri henüz çevrim içi olarak mevcut olmadığından,\nkonferansta yayımlanan makalelerin tam koleksiyonunu aşağıdan görüntüleyebilirsiniz:",
+    
+    "Demo1": "Demo 1:",
+    "Demo2": "Demo 2:",
+    "Email": "E-posta",
+    "Social": "Sosyal"
+}

@@ -1,0 +1,35 @@
+{
+    "title": "Haider Khalaf Portföyü",
+    "myHeader": "Haider Khalaf",
+    "aboutMe": "Donanım-yazılım entegre çözümleri sunan, full-stack geliştirme ve robotik alanında yetkin Genç Bilgisayar Mühendisi. Programlama, algoritmalar ve web teknolojilerinde uzman, kaliteye, iş birliğine ve zamanında sonuçlara odaklıdır.",
+    "Continue": "Devam Et",
+    "View": "Görüntüle",
+    "ViewProject": "Projeyi Görüntüle",
+    "Next": "Sonraki",
+    "Email": "E-posta",
+    "Social": "Sosyal",
+
+
+
+
+    "Project&WorkExperience": "Projeler ve İş Deneyimi",
+    "AiTrainingDate": "Ekim 2024 - Devam Ediyor",
+    "AiTrainingSpecialist": "Yapay Zekâ Eğitim Uzmanı",
+    "AiTrainingAbout": "Outlier.ai bünyesinde Yapay Zekâ Eğitim Uzmanı olarak, İnsan Geri Bildirimiyle Pekiştirmeli Öğrenme (RLHF) yöntemini kullanarak yapay zekâ modellerini eğitmekteyim. Bu rolümde Python, C, C++ ve SQL dillerinde yazılan kodları incelemek, optimize etmek ve geliştirmekle birlikte verimlilik, hatasız uygulama ve sürdürülebilirliğe odaklanmaktayım.",
+
+    "SmartageDate": "Şubat 2024 - Aralık 2024",
+    "SMARTAGE": "SMARTAGE",
+    "SmartageAbout": "Gerçek zamanlı olarak yaşlılara yönelik sensör tabanlı izleme ve uyum sağlama sistemi. IoT cihazları ve makine öğrenmesi modellerini entegre ederek verileri toplar, analiz eder ve yanıtlar; kişiselleştirilmiş ve uyarlanabilir çözümler sunarak yaşlı bireylerin güvenliğini ve refahını artırır. Sistem, gelişmiş konumlandırma algoritmaları ve sezgisel paneller sayesinde kesintisiz görselleştirme ve uygulanabilir içgörüler sağlar, böylece geriatri alanında yaşam kalitesini artırmaya yönelik güçlü bir araç haline gelir.",
+
+    "TurkishTextSummarizerDate": "Şubat 2023 - Ocak 2024",
+    "TurkishTextSummarizer": "Türkçe Metin Özetleyici",
+    "TurkishTextSummarizerAbout": "Türkçe metinler için kosinüs benzerliği ve PageRank dâhil olmak üzere NLP tekniklerini kullanan full-stack projesi. Ölçeklenebilir arka ucu sayesinde verimli işlem yapar; kullanıcı dostu ön yüzüyle etkileşimli giriş ve görselleştirme imkânı sunar. Doğru ve sezgisel özetleme sonuçları sağlar.",
+
+    "ImageProcessingDate": "Şubat 2023 - Ocak 2024",
+    "ImageProcessing": "Görüntü İşleme",
+    "ImageProcessingAbout": "Bu projede, makine öğrenmesi modellerini eğitmek amacıyla özel bir veri seti oluşturulmuş ve görsellerin algılanıp sınıflandırılması sağlanmıştır. Gerçek zamanlı nesne tespiti ve video takibi için otomatik sıralama algoritması geliştirilmiş, çeşitli senaryolarda doğruluk ve verimlilik için optimize edilmiş uçtan uca analiz hattı oluşturulmuştur.",
+
+    "RoboticsDate": "Şubat 2022 - Haziran 2022",
+    "Robotics": "Robotik",
+    "RoboticsAbout": "Robotik projesi, bilgisayarla görme yoluyla kontrol edilen bir robot el geliştirmeye odaklanmıştır. Makine öğrenmesi ve görüntü işleme entegre edilmiştir. Görsel tabanlı parmak hareketi kontrolünün verimliliğini artırmak için yenilikçi bir yaklaşım önerilmiştir. Bu çalışma patent başvurusu yapılmış olup, araştırma makalesi olarak yayımlanacaktır."
+}

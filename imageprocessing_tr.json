@@ -1,0 +1,12 @@
+{
+    "ImageProcessing": "Görüntü İşleme",
+    "myHeader": "Haider Khalaf",
+    "Projects&WorkExperience": "Projeler ve İş Deneyimi",
+   
+    "ImageProcessingDate": "Şubat 2023 - Ocak 2024",
+    "FirstArticle": "Proje, görüntüleri tespit etmek ve sınıflandırmak için makine öğrenimi modellerini eğitmeye yönelik özel bir veri seti oluşturmayı içeriyordu.\nGerçek zamanlı nesne tespiti ve izlemeyi videolarda mümkün kılan otomatik bir sıralama algoritması geliştirmeyi ve\nçeşitli senaryolarda doğruluk ve verimlilik için optimize edilmiş kapsamlı bir uçtan uca analiz hattı oluşturmayı içeriyordu.",
+    "SecondArticle": "Üniversitedeki bir ekip arkadaşımla kapsamlı bir görüntü ve video analiz sistemi geliştirmek için iş birliği yaptım.\nProje, görüntü tespiti ve sınıflandırması için bir makine öğrenimi hattı oluşturmayı hedefliyordu.\nModellerin çeşitli görüntüleri doğru bir şekilde tespit edip sınıflandırabilmesi için özel olarak hazırlanmış veri setlerinin oluşturulmasından sorumluydum.\nBu, veri temizleme, etiketleme ve veri setini güçlendirmeyi içeriyordu, böylece sistemin performansı sağlamlaştırıldı.\nAyrıca, görüntüleri algılayabilen, sınıflandırabilen ve düzenli klasörlere yerleştirebilen otomatik bir sıralama algoritması geliştirdik, bu da veri yönetiminin verimliliğini artırdı.\nBuna ek olarak, videolarda gerçek zamanlı nesne tespiti uyguladık; bu, sistemin videolardaki nesneleri takip edip saymasını sağladı ve sınıf bazlı toplamları oluşturma işlevselliği ekledi.\nProje, uçtan uca bir görüntü ve video analiz sistemi ile sonuçlandı; ben sınıflandırma modelinin tasarımına ve gerçek zamanlı işleme özelliklerinin entegrasyonuna katkıda bulundum.\nGeliştirme süresince performansı artırmaya odaklandım, çeşitli tespit senaryolarında yüksek doğruluk ve verimlilik hedefledim. Bu proje, bilgisayarla görme, makine öğrenimi ve sistem optimizasyonu konularındaki becerilerimi derinleştirmeme olanak sağladı ve aynı zamanda işlevsel ve yüksek performanslı bir çözümü sunmak için etkili bir şekilde ekip içinde çalışmayı mümkün kıldı.",
+    
+    "Email": "E-posta",
+    "Social": "Sosyal"
+}

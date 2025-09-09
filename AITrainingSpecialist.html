@@ -20,7 +20,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cairo&display=swap" rel="stylesheet">
 		<link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/AITrainingSpecialist?lang=en" />
 		<link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/AITrainingSpecialist?lang=ar" />
-
+		<link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/AITrainingSpecialist?lang=tr" />
 	</head>
 	<body class="is-preload">
 
@@ -41,12 +41,12 @@
 						<ul class="icons">
 							<li><a href="https://www.linkedin.com/in/haider-khalaf/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">fa-linkedIn</span></a></li>
 							<li><a href="https://github.com/B7SJuba" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-							<li>
-								<div class="language-switch" id="langSwitcher">
-									<div class="switch-ball"></div>
-									<span class="label-en">En</span>
-									<span class="label-ar">عربي</span>
-									</div>
+							<li class="language-switch-list">		
+									<select id="langSwitcherList">
+										<option class="language-switch-list" value="en">English</option>
+										<option class="language-switch-list" value="ar">عربي</option>
+										<option class="language-switch-list" value="tr">Türkçe</option>
+									</select>
 							</li>
 						</ul>
 					</nav>
@@ -111,84 +111,65 @@
 						});
 				}
 			</script>
+			
 			<script>
+				// Language Switcher Logic (List)
 
-				// Language Switcher Logic
+				document.addEventListener("DOMContentLoaded", function () {
+				const langSwitcher = document.getElementById("langSwitcherList");
 
-				const switcher = document.getElementById("langSwitcher");
-				const ball = switcher.querySelector(".switch-ball");
+				// Get saved language from localStorage (default to 'en')
+				let savedLang = localStorage.getItem("lang") || "en";
 
-				// Get saved language or default to English
-				let lang = localStorage.getItem("lang") || "en";
-				setLanguage(lang, false);  // Set initial state without animation
+				// Set dropdown to saved language
+				langSwitcher.value = savedLang;
 
-				// Toggle language on click
-				switcher.addEventListener("click", () => {
-					lang = lang === "en" ? "ar" : "en";
-					localStorage.setItem("lang", lang);
-					setLanguage(lang, true);
+				// Update page language and load translations
+				setLanguage(savedLang);
+				loadLanguage(savedLang);
+
+				// Listen for user selection
+				langSwitcher.addEventListener("change", function () {
+					let selectedLang = this.value;
+					localStorage.setItem("lang", selectedLang); // save
+					setLanguage(selectedLang);
+					loadLanguage(selectedLang);
 				});
 
-				function setLanguage(langCode, animate) {
-					// Position the switch ball
-					if (animate) {
-					ball.style.transition = "left 0.3s ease";
-					} else {
-					ball.style.transition = "none";
-					}
-					ball.style.left = langCode === "ar" ? "0px" : "2px";
-
-					// Set HTML language attributes
-					document.documentElement.setAttribute("lang", langCode);
-					document.documentElement.setAttribute("dir", langCode === "ar" ? "rtl" : "ltr");
-
-					// Load translation file
-					loadLanguage(langCode);
-					
+				function setLanguage(lang) {
+					document.documentElement.setAttribute("lang", lang);
+					document.documentElement.setAttribute("dir", lang === "ar" ? "rtl" : "ltr");
 				}
 
+				// Load translation file and replace text
 				function loadLanguage(langCode) {
 					fetch(`aitrainingspecialist_${langCode}.json`)
 					.then(res => res.json())
 					.then(data => {
 						document.querySelectorAll("[data-i18n]").forEach(el => {
 						const key = el.getAttribute("data-i18n");
-						el.textContent = data[key] || key;
+						if (data[key]) {
+							// Handle innerHTML for values with tags (like links <a>)
+							if (/<[a-z][\s\S]*>/i.test(data[key])) {
+							el.innerHTML = data[key];
+							} else {
+							el.textContent = data[key];
+							}
+						}
 						});
-					});
+					})
+					.catch(err => console.error("Error loading translation:", err));
 				}
-			</script>
+				});
+
+			</script>			
 			
 			<script>
+				// Script ot query language via URL 
 				document.addEventListener("DOMContentLoaded", () => {
  			    // Get lang parameter (default to English)
   				const urlParams = new URLSearchParams(window.location.search);
-  				const lang = urlParams.get("lang") || "en";
-
-				// Load JSON file based on language
-				fetch(`index_${lang}.json`)
-					.then(response => response.json())
-					.then(translations => {
-					document.querySelectorAll("[data-i18n]").forEach(el => {
-						const key = el.getAttribute("data-i18n");
-						if (translations[key]) {
-						el.textContent = translations[key];
-						}
-					});
-
-					// Set <html lang="xx"> for SEO
-					document.documentElement.lang = lang;
-					})
-					.catch(err => console.error("Error loading language file:", err));
-					});
-
-			</script>
-			
-			<script>
-				document.addEventListener("DOMContentLoaded", () => {
- 			    // Get lang parameter (default to English)
-				const paramsString = window.location.search;
-  				const urlParams = new URLSearchParams(paramsString);
+				
 				// Get saved language or default to English
 				let localLang = localStorage.getItem("lang");
   				const lang =  urlParams.get("lang") || localLang ;
@@ -208,10 +189,13 @@
 					// Set <html lang="xx"> for SEO
 					document.documentElement.lang = lang;
 					document.documentElement.setAttribute("dir", lang === "ar" ? "rtl" : "ltr");	
-					})
+				})
 					.catch(err => console.error("Error loading language file:", err));
 					});
 			</script>
+
+			
+
 
 	</body>
 </html>
