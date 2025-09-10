@@ -38,7 +38,13 @@
 			}
 		</style>
 	</head>
+
 	<body class="is-preload">
+
+		<!-- Loader -->
+		<div class="loader">
+			<img src="images/loadingBlack.gif" alt="">
+		</div>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -154,6 +160,14 @@
 							console.error('Could not copy text: ', err);
 						});
 				}
+			</script>
+
+			<script>
+				// Loader Script 
+				window.addEventListener("load", function() {
+					const loader = document.querySelector(".loader");
+					loader.className += " hidden"; // Adding hidden to loader class to hide it
+				}) 
 			</script>
 
 			<script>
