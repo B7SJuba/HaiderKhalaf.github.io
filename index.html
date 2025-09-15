@@ -239,21 +239,23 @@
 			</script>
 
 			<script>
-				// Language Switcher Logic (List)
+				// Language Switcher Logic (List) and url querying 
 
 				document.addEventListener("DOMContentLoaded", function () {
 				const langSwitcher = document.getElementById("langSwitcherList");
-					
-				// Get saved language from localStorage (default to 'en')
-				let savedLang = localStorage.getItem("lang") || "en";
+				
+				// Check URL parameter first, then local storage, then default to 'en'
+				 const urlParams = new URLSearchParams(window.location.search);
+				let savedLang = localStorage.getItem("lang");
+				let lang = urlParams.get("lang") || savedLang || "en";
 
 				// Set dropdown to saved language
-				langSwitcher.value = savedLang;
+				langSwitcher.value = lang;
 
 				// Update page language and load translations
-				setLanguage(savedLang);
-				loadLanguage(savedLang);
-				 runTypingEffect(savedLang); // Running the typing animation
+				setLanguage(lang);
+				loadLanguage(lang);
+				runTypingEffect(lang); // Running the typing animation
 
 				// Listen for user selection
 				langSwitcher.addEventListener("change", function () {
@@ -288,6 +290,7 @@
 					})
 					.catch(err => console.error("Error loading translation:", err));
 				}
+				// Typing effect for the header part
 				  function runTypingEffect(lang) {
 				let txt = "Haider Khalaf";
 				if (lang === "ar") txt = "حيدر خلف";
@@ -309,8 +312,6 @@
     				}
 
 				});
-
-
 			</script>
 
 			<!--
@@ -399,34 +400,6 @@
 				}
 			</script>
 -->
-			<script>
-				document.addEventListener("DOMContentLoaded", () => {
- 			    // Get lang parameter (default to English)
-  				const urlParams = new URLSearchParams(window.location.search);
-				
-				// Get saved language or default to English
-				let localLang = localStorage.getItem("lang");
-  				const lang =  urlParams.get("lang") || localLang ;
-				console.log(lang);
-
-				// Load JSON file based on language
-				fetch(`index_${lang}.json`)
-					.then(response => response.json())
-					.then(translations => {
-					document.querySelectorAll("[data-i18n]").forEach(el => {
-						const key = el.getAttribute("data-i18n");
-						if (translations[key]) {
-						el.textContent = translations[key];
-						}
-					});
-
-					// Set <html lang="xx"> for SEO
-					document.documentElement.lang = lang;
-					document.documentElement.setAttribute("dir", lang === "ar" ? "rtl" : "ltr");	
-				})
-					.catch(err => console.error("Error loading language file:", err));
-					});
-			</script>
 
 	</body>
 </html>

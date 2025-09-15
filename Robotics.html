@@ -230,6 +230,10 @@
   				const lang =  urlParams.get("lang") || localLang ;
 				console.log(lang);
 
+				// To adjust the language switcher value
+				let switcherLanguage = document.getElementById("langSwitcherList");			
+				switcherLanguage.value = lang;
+
 				// Load JSON file based on language
 				fetch(`robotics_${lang}.json`)
 					.then(response => response.json())
