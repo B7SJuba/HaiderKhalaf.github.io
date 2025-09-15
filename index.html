@@ -243,7 +243,7 @@
 
 				document.addEventListener("DOMContentLoaded", function () {
 				const langSwitcher = document.getElementById("langSwitcherList");
-
+					
 				// Get saved language from localStorage (default to 'en')
 				let savedLang = localStorage.getItem("lang") || "en";
 
@@ -253,6 +253,7 @@
 				// Update page language and load translations
 				setLanguage(savedLang);
 				loadLanguage(savedLang);
+				 runTypingEffect(savedLang); // Running the typing animation
 
 				// Listen for user selection
 				langSwitcher.addEventListener("change", function () {
@@ -260,6 +261,7 @@
 					localStorage.setItem("lang", selectedLang); // save
 					setLanguage(selectedLang);
 					loadLanguage(selectedLang);
+					runTypingEffect(selectedLang); // Running typing animation on language change
 				});
 
 				function setLanguage(lang) {
@@ -286,17 +288,39 @@
 					})
 					.catch(err => console.error("Error loading translation:", err));
 				}
-				});
+				  function runTypingEffect(lang) {
+				let txt = "Haider Khalaf";
+				if (lang === "ar") txt = "حيدر خلف";
 
-			</script>
+				const headerEl = document.getElementById("myHeader");
+				headerEl.innerHTML = ""; // Clear previous text
 
-
-			<script>
-				const txt = "HAIDER KHALAF";
 				let i = 0;
 				let speed = 150;
 
-				function typingEffect(){
+					function typingEffect() {
+						if (i < txt.length) {
+							headerEl.innerHTML += txt.charAt(i);
+							i++;
+							setTimeout(typingEffect, speed);
+							}
+						}
+					typingEffect();
+    				}
+
+				});
+
+
+			</script>
+
+			<!--
+			<script>
+				// Old typing effect script
+				let txt = "Haider Khalaf";
+				let i = 0;
+				let speed = 150;
+
+			function typingEffect(){
 
 					if (i<txt.length){
 						document.getElementById("myHeader").innerHTML += txt.charAt(i);
@@ -321,10 +345,12 @@
 					}
 				}
 					*/
-				// Starting the effect
+				// Starting the effect	
 				typingEffect();
 
-			</script>
+			</script> 
+			-->
+
 <!--		
 			<script>
 
