@@ -2561,6 +2561,22 @@ input, select, textarea {
 	}
 
 
+/* Visitor Counter Styling */
+	.visitor-counter {
+		height: 2vh;  /* 6% of viewport height */
+		max-height: 30px;
+		min-height: auto;
+		width: auto;
+		}
+
+
+
+	.visitor-counter:hover {
+		transform: scale(1.05); /* optional zoom effect */
+	
+	}
+
+
 
 /* Form */
 
@@ -4922,7 +4938,7 @@ input, select, textarea {
 			}
 
 		}
-
+	/* The Small menu for phones*/
 	#navPanel {
 		-moz-transform: translateX(20rem);
 		-webkit-transform: translateX(20rem);
@@ -4934,7 +4950,7 @@ input, select, textarea {
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		display: none;
 		-webkit-overflow-scrolling: touch;
-		background: #ffffff;
+		background: #e1e1e1;
 		box-shadow: none;
 		color: #212931;
 		height: 100%;
@@ -4952,10 +4968,12 @@ input, select, textarea {
 		#navPanel .links {
 			list-style: none;
 			padding-left: 0;
+			
 		}
 
 			#navPanel .links li {
 				border-top: solid 2px #eeeeee;
+				
 			}
 
 				#navPanel .links li a {
