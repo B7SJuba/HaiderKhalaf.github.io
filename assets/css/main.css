@@ -318,7 +318,7 @@ input, select, textarea {
 	}
 
 	a {
-		color: #212931;
+		color: #312121;
 		border-bottom-color: rgba(33, 41, 49, 0.5);
 	}
 
@@ -332,7 +332,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #212931;
+		color: #ffffff;
 	}
 
 	blockquote {
@@ -2239,8 +2239,8 @@ input, select, textarea {
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 2px #212931;
-		color: #212931 !important;
+		box-shadow: inset 0 0 0 2px #ffffff;
+		color: #ffffff !important;
 	}
 
 		input[type="submit"]:hover,
@@ -2575,6 +2575,32 @@ input, select, textarea {
 		transform: scale(1.05); /* optional zoom effect */
 	
 	}
+
+
+	#video-background {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;   /* Makes sure the video fills the screen without stretching */
+		z-index: -1;         /* Keeps it behind everything else */
+		background-color: black; /* Fallback color */
+	}
+
+
+
+
+	.overlay-text {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.4);
+		z-index: 0;
+	}
+
 
 
 
@@ -2921,6 +2947,7 @@ input, select, textarea {
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
+			color: white;
 		}
 
 		.icon > .label {
@@ -3555,7 +3582,7 @@ input, select, textarea {
 	}
 
 	.pagination a {
-		color: #212931 !important;
+		color: #ffffff !important;
 	}
 
 		.pagination a:hover {
@@ -3570,7 +3597,7 @@ input, select, textarea {
 			}
 
 		.pagination a.active {
-			background-color: #eeeeee;
+			background-color:rgba(3, 1, 1, 0.285);
 		}
 
 	.pagination span {
@@ -3602,12 +3629,14 @@ input, select, textarea {
 			background-repeat: repeat,								no-repeat,													no-repeat;
 			background-attachment: scroll,								scroll,														scroll;
 			z-index: -1;
+			display: none; /* Remove to restore default background */
 		}
 
 			#wrapper > .bg.fixed {
 				position: fixed;
 				width: 100vw;
 				height: 100vh;
+				z-index: -1;
 			}
 
 		#wrapper.fade-in:before {
@@ -4100,11 +4129,11 @@ input, select, textarea {
 					}
 
 				#nav ul.links li.active {
-					background-color: #ffffff;
+					background-color:rgba(255, 255, 255, 0.775);;
 				}
 
 					#nav ul.links li.active a {
-						color: #1e252d;
+						color: #000000;
 					}
 
 						#nav ul.links li.active a:hover {
@@ -4121,6 +4150,7 @@ input, select, textarea {
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
 			margin-bottom: 0;
+			color: white;
 		}
 
 		@media screen and (max-width: 980px) {
@@ -4134,7 +4164,8 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #ffffff;
+		background-color:rgba(3, 1, 1, 0.285);
+		color: #ffffff;
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
@@ -4241,9 +4272,10 @@ input, select, textarea {
 
 			#main > .posts > article {
 				border-color: #eeeeee;
-				border-left-width: 2px;
+				border-left-width: 1px;
+				border-right-width: 1px;
 				border-style: solid;
-				border-top-width: 2px;
+				border-top-width: 1px;
 				text-align: center;
 			}
 
@@ -4326,13 +4358,13 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		color: #717981;
+		color: #ffffff;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #f5f5f5;
-		color: #909498;
+		background-color: transparent;
+		color: #ffffff;
 		cursor: default;
 		position: relative;
 		margin: 0 auto;
@@ -4346,7 +4378,7 @@ input, select, textarea {
 		}
 
 		#footer a {
-			color: #717981;
+			color: #ffffff;
 			border-bottom-color: rgba(113, 121, 129, 0.5);
 		}
 
@@ -4360,7 +4392,7 @@ input, select, textarea {
 		}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-			color: #717981;
+			color: #ffffff;
 		}
 
 		#footer blockquote {
@@ -4763,7 +4795,7 @@ input, select, textarea {
 	#copyright {
 		color: #ffffff;
 		position: relative;
-		color: rgba(255, 255, 255, 0.25);
+		color: rgba(255, 255, 255, 0.712);
 		cursor: default;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.8rem;
@@ -4950,9 +4982,9 @@ input, select, textarea {
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		display: none;
 		-webkit-overflow-scrolling: touch;
-		background: #e1e1e1;
+		background-color:rgba(3, 1, 1, 0.90);
 		box-shadow: none;
-		color: #212931;
+		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
 		overflow-y: auto;
@@ -4973,12 +5005,12 @@ input, select, textarea {
 
 			#navPanel .links li {
 				border-top: solid 2px #eeeeee;
-				
 			}
 
 				#navPanel .links li a {
 					border-bottom: 0;
 					display: block;
+					color: rgb(255, 255, 255);
 					font-family: "Source Sans Pro", Helvetica, sans-serif;
 					font-size: 0.9rem;
 					font-size: 0.9rem;
@@ -4995,6 +5027,7 @@ input, select, textarea {
 
 				#navPanel .links li:first-child {
 					border-top: 0;
+					color: white;
 				}
 
 		#navPanel .close {
@@ -5005,7 +5038,7 @@ input, select, textarea {
 			transition: color 0.2s ease-in-out;
 			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 			border: 0;
-			color: #909498;
+			color: #ffffff;
 			cursor: pointer;
 			display: block;
 			height: 3.25rem;
