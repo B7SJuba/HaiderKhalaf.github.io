@@ -44,11 +44,12 @@
 
 
 		<!-- Background Video & Dark Overlay -->
-		<video autoplay muted loop id="video-background">
+		<video autoplay muted loop playsinline webkit-playsinline id="video-background">
 		<source src="images/coding-background.mp4" type="video/mp4">
 		</video>
+		<img src="images/coding-background.gif" id="video-fallback" alt="background" />
 		<div class="overlay-text"></div>
-		
+			
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -266,7 +267,42 @@
 			</script>
 
 			
-			
+			<script>
+				//This script tries to play the bg video, if it's blocked then the gif will display instead.
+				document.addEventListener('DOMContentLoaded', () => {
+				const video = document.getElementById('video-background');
+				const fallback = document.getElementById('video-fallback');
+
+				// Function to show fallback if video can't play
+				function showFallback() {
+					if (video) video.style.display = 'none';
+					if (fallback) fallback.style.display = 'block';
+				}
+
+				// Try to play video programmatically (some browsers block autoplay)
+				if (video) {
+					const playPromise = video.play();
+
+					if (playPromise !== undefined) {
+					playPromise
+						.then(() => {
+						// It played — good
+						console.log('Background video is playing.');
+						})
+						.catch((error) => {
+						console.warn('Autoplay blocked, using fallback:', error);
+						showFallback();
+						});
+					} else {
+					// No autoplay support
+					showFallback();
+					}
+				} else {
+					showFallback();
+				}
+				});
+			</script>
+
 
 	</body>
 </html>
