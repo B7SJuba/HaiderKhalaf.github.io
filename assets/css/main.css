@@ -4285,9 +4285,9 @@ input, select, textarea {
 			}
 
 			#main > .posts > article {
-				border-color: #eeeeee;
-				border-left-width: 1px;
-				border-right-width: 0px;
+				border-color: #efefef;
+				border-inline-start-width: 1px;
+				border-inline-end-width: 1px;
 				border-style: solid;
 				border-top-width: 1px;
 				text-align: center;
@@ -4298,11 +4298,19 @@ input, select, textarea {
 				}
 
 				#main > .posts > article:nth-child(2n - 1) {
-					border-left-width: 0;
+				border-left-width: 0;
+				border-inline-start-width: 1px;
+				border-inline-end-width: 1px;
+				border-color: rgb(255, 255, 255);
 				}
 
 				#main > .posts > article:nth-child(-n + 2) {
 					border-top-width: 0;
+					border-left-width: 0;
+					border-inline-start-width: 1px;
+					border-inline-end-width: 1px;
+					border-color: rgb(255, 255, 255);
+					
 				}
 
 			@media screen and (max-width: 980px) {
@@ -4393,7 +4401,7 @@ input, select, textarea {
 
 		#footer a {
 			color: #ffffff;
-			border-bottom-color: rgba(113, 121, 129, 0.5);
+			border-bottom-color: transparent;
 		}
 
 			#footer a:hover {
