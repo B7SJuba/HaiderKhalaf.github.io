@@ -75,7 +75,21 @@
 									<h1 data-i18n="TurkishTextSummarizer"></h1>
 									<p data-i18n="FirstArticle"></p>
 								</header>
-								<div class="image main"><img src="images/NLP.png" alt="Natural Language Processing" /></div>
+								<div class="image main">
+									<video autoplay loop muted playsinline 
+										class="article-thumb"
+										poster="images/NLP.png">
+										
+										<!-- highest quality + best compression -->
+										<source src="images/NLP.webm" type="video/webm">
+
+										<!-- secondary fallback (Safari, older iOS) -->
+										<source src="images/NLP.mp4" type="video/mp4">
+
+										<!-- absolute fallback if video is unsupported -->
+										<img src="images/NLP.png" alt="Natural Language Processing">
+									</video>	
+								</div>
 								<p data-i18n="SecondArticle"></p>
 								<p><a href="https://github.com/B7SJuba/TurkishTextSummarizer" target="_blank"><b style="color: white;">Turkish Text Summarizer repository</b></a></p>
 							</section>
@@ -261,6 +275,39 @@
 				});
 			</script>
 			
+			<script>
+				// Script to pause post videos when not visible to the viewer
+				document.addEventListener("DOMContentLoaded", () => {
+				const videos = document.querySelectorAll(".article-thumb");
+
+				// Observer options: video must be at least 50% visible to play
+				const observerOptions = {
+					root: null,           // viewport
+					threshold: 0.5        // 50% visibility required
+				};
+
+				const observer = new IntersectionObserver((entries) => {
+					entries.forEach(entry => {
+					const video = entry.target;
+
+					if (entry.isIntersecting) {
+						// Try to play when visible
+						const playAttempt = video.play();
+						if (playAttempt !== undefined) {
+						playAttempt.catch(() => {
+							// Autoplay blocked → do nothing
+						});
+						}
+					} else {
+						// Pause when off screen
+						video.pause();
+					}
+					});
+				}, observerOptions);
+
+				videos.forEach(video => observer.observe(video));
+				});
+			</script>
 
 	</body>
 </html>

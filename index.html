@@ -91,14 +91,29 @@
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Featured Post AI Training Specialist -->
+						<!-- Featured Post -->
+						 	<!-- AI Training Specialist -->
 							<article class="post featured">
 								<header class="major">
 									<span class="date" data-i18n="AiTrainingDate"></span>
 									<h2 data-i18n="AiTrainingSpecialist"></h2>
 									<p data-i18n="AiTrainingAbout"></p>
 								</header>
-								<a class="image main"><img src="images/ai-training.jpg" alt="AI Training Specialist" /></a>
+								<a class="image main">
+									<video autoplay loop muted playsinline 
+										class="article-thumb"
+										poster="images/ai-training.jpg">
+										
+										<!-- highest quality + best compression -->
+										<source src="images/AITrainingSpecialist.webm" type="video/webm">
+
+										<!-- secondary fallback (Safari, older iOS) -->
+										<source src="images/AITrainingSpecialist.mp4" type="video/mp4">
+
+										<!-- absolute fallback if video is unsupported -->
+										<img src="images/ai-training.jpg" alt="AI Training Specialist">
+									</video>								
+								</a>
 								<ul class="actions special">
 									<li><a href="AITrainingSpecialist" class="button large" data-i18n="View"></a></li>
 								</ul>
@@ -106,13 +121,28 @@
 
 						<!-- Posts -->
 							<section class="posts">
+
 								<!-- SMARTAGE -->
 								<article>
 									<header>
 										<span class="date" data-i18n="SmartageDate"></span>
 										<h2 data-i18n="SMARTAGE"></h2>
 									</header>
-									<a  class="image fit"><img src="images/SMARTAGE_Image.png" alt="SMARTAGE" /></a>
+									<a  class="image fit">
+										<video autoplay loop muted playsinline 
+										class="article-thumb"
+										poster="images/SMARTAGE_Image.png">
+										
+										<!-- highest quality + best compression -->
+										<source src="images/SMARTAGE.webm" type="video/webm">
+
+										<!-- secondary fallback (Safari, older iOS) -->
+										<source src="images/SMARTAGE.mp4" type="video/mp4">
+
+										<!-- absolute fallback if video is unsupported -->
+										<img src="images/SMARTAGE_Image.png" alt="SMARTAGE">
+									</video>	
+									</a>
 									<p data-i18n="SmartageAbout"></p>
 								<ul class="actions special">
 										<li><a href="SMARTAGE" class="button" data-i18n="ViewProject"></a></li>
@@ -125,7 +155,21 @@
 										<span class="date" data-i18n="TurkishTextSummarizerDate"></span>
 										<h2 data-i18n="TurkishTextSummarizer"></h2>
 									</header>
-									<a class="image fit"><img src="images/NLP.png" alt="Natural Language Processing" /></a>
+									<a class="image fit">
+									<video autoplay loop muted playsinline 
+										class="article-thumb"
+										poster="images/NLP.png">
+										
+										<!-- highest quality + best compression -->
+										<source src="images/NLP.webm" type="video/webm">
+
+										<!-- secondary fallback (Safari, older iOS) -->
+										<source src="images/NLP.mp4" type="video/mp4">
+
+										<!-- absolute fallback if video is unsupported -->
+										<img src="images/NLP.png" alt="Natural Language Processing">
+									</video>	
+									</a>
 									<p data-i18n="TurkishTextSummarizerAbout"></p>
 									<ul class="actions special">
 										<li><a href="TurkishTextSummarizer" class="button" data-i18n="ViewProject"></a></li>
@@ -138,7 +182,21 @@
 										<span class="date" data-i18n="ImageProcessingDate"></span>
 										<h2 data-i18n="ImageProcessing"></h2>
 									</header>
-									<a class="image fit"><img src="images/ImageProcessing.png" alt="Image Processing" /></a>
+									<a class="image fit">
+									<video autoplay loop muted playsinline 
+										class="article-thumb"
+										poster="images/ImageProcessing.png">
+										
+										<!-- highest quality + best compression -->
+										<source src="images/ImageProcessing.webm" type="video/webm">
+
+										<!-- secondary fallback (Safari, older iOS) -->
+										<source src="images/ImageProcessing.mp4" type="video/mp4">
+
+										<!-- absolute fallback if video is unsupported -->
+										<img src="images/ImageProcessing.png" alt="Image Processing">
+									</video>	
+									</a>
 									<p data-i18n="ImageProcessingAbout"></p>
 									<ul class="actions special">
 										<li><a href="ImageProcessing" class="button" data-i18n="ViewProject"></a></li>
@@ -151,7 +209,21 @@
 										<span class="date" data-i18n="RoboticsDate"></span>
 										<h2 data-i18n="Robotics"></h2>
 									</header>
-									<a class="image fit"><img src="images/robotics.jpg" alt="Robotics" /></a>
+									<a class="image fit">
+									<video autoplay loop muted playsinline 
+										class="article-thumb"
+										poster="images/robotics.jpg">
+										
+										<!-- highest quality + best compression -->
+										<source src="images/Robotics.webm" type="video/webm">
+
+										<!-- secondary fallback (Safari, older iOS) -->
+										<source src="images/Robotics.mp4" type="video/mp4">
+
+										<!-- absolute fallback if video is unsupported -->
+										<img src="images/robotics.jpg" alt="Robotics">
+									</video>	
+									</a>
 									<p data-i18n="RoboticsAbout"></p>
 									<ul class="actions special">
 										<li><a href="Robotics" class="button" data-i18n="ViewProject"></a></li>
@@ -374,7 +446,60 @@
 				}
 				});
 			</script>
-						
+<!--
+			<script>
+				// Script to check if posts videos are being blocked
+				document.addEventListener("DOMContentLoaded", () => {
+				const vids = document.querySelectorAll("video.article-thumb");
+
+				vids.forEach(video => {
+					const playAttempt = video.play();
+					if (playAttempt !== undefined) {
+					playAttempt.catch(() => {
+						// Switch to fallback image
+						video.style.display = "none";
+						let fallbackImg = video.querySelector("img");
+						if (fallbackImg) fallbackImg.style.display = "block";
+					});
+					}
+				});
+				});
+			</script>
+-->
+			<script>
+				// Script to pause post videos when not visible to the viewer
+				document.addEventListener("DOMContentLoaded", () => {
+				const videos = document.querySelectorAll(".article-thumb");
+
+				// Observer options: video must be at least 50% visible to play
+				const observerOptions = {
+					root: null,           // viewport
+					threshold: 0.5        // 50% visibility required
+				};
+
+				const observer = new IntersectionObserver((entries) => {
+					entries.forEach(entry => {
+					const video = entry.target;
+
+					if (entry.isIntersecting) {
+						// Try to play when visible
+						const playAttempt = video.play();
+						if (playAttempt !== undefined) {
+						playAttempt.catch(() => {
+							// Autoplay blocked → do nothing
+						});
+						}
+					} else {
+						// Pause when off screen
+						video.pause();
+					}
+					});
+				}, observerOptions);
+
+				videos.forEach(video => observer.observe(video));
+				});
+			</script>
+									
 
 			<!--
 			<script>

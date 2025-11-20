@@ -94,7 +94,21 @@
 									<h1 data-i18n="Robotics"></h1>
 									<p data-i18n="FirstArticle"></p>
 								</header>
-								<div class="image main"><img src="images/robotics.jpg" alt="Robotics" /></div>
+								<div class="image main">
+									<video autoplay loop muted playsinline 
+										class="article-thumb"
+										poster="images/robotics.jpg">
+										
+										<!-- highest quality + best compression -->
+										<source src="images/Robotics.webm" type="video/webm">
+
+										<!-- secondary fallback (Safari, older iOS) -->
+										<source src="images/Robotics.mp4" type="video/mp4">
+
+										<!-- absolute fallback if video is unsupported -->
+										<img src="images/robotics.jpg" alt="Robotics">
+									</video>
+								</div>
 								<p data-i18n="SecondArticle"></p>
 									 <p data-i18n="Demo1"></p>
 									 <div class="video-container">
@@ -300,6 +314,40 @@
 				} else {
 					showFallback();
 				}
+				});
+			</script>
+
+			<script>
+				// Script to pause post videos when not visible to the viewer
+				document.addEventListener("DOMContentLoaded", () => {
+				const videos = document.querySelectorAll(".article-thumb");
+
+				// Observer options: video must be at least 50% visible to play
+				const observerOptions = {
+					root: null,           // viewport
+					threshold: 0.5        // 50% visibility required
+				};
+
+				const observer = new IntersectionObserver((entries) => {
+					entries.forEach(entry => {
+					const video = entry.target;
+
+					if (entry.isIntersecting) {
+						// Try to play when visible
+						const playAttempt = video.play();
+						if (playAttempt !== undefined) {
+						playAttempt.catch(() => {
+							// Autoplay blocked → do nothing
+						});
+						}
+					} else {
+						// Pause when off screen
+						video.pause();
+					}
+					});
+				}, observerOptions);
+
+				videos.forEach(video => observer.observe(video));
 				});
 			</script>
 

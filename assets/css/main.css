@@ -2618,6 +2618,18 @@ input, select, textarea {
 
 
 
+	.article-thumb {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 8px; /* optional */
+		display: block;
+		pointer-events: none; /* prevents taps from opening fullscreen on mobile */
+		
+	}
+
+
+
 /* Form */
 
 	form {
@@ -3069,6 +3081,7 @@ input, select, textarea {
 			-ms-transform: scale(1.05);
 			transform: scale(1.05);
 		}
+
 
 /* Actions */
 
