@@ -30,32 +30,36 @@
 					"@type": "Person",
 					"@id": "https://haiderkhalaf.com/#person",
 					"name": "Haider Arrak Khalaf",
-					"jobTitle": "Junior Computer Engineer",
-					"description": "Junior Computer Engineer skilled in full-stack development and robotics, delivering integrated hardware-software solutions.",
+					"jobTitle": [
+						{ "@language": "en", "@value": "Junior Computer Engineer" },
+						{ "@language": "ar", "@value": "مهندس كمبيوتر" },
+						{ "@language": "tr", "@value": "Bilgisayar Mühendisi" }
+					],
+					"description": [
+						{ "@language": "en", "@value": "Junior Computer Engineer skilled in full-stack development and robotics, delivering integrated hardware-software solutions." },
+						{ "@language": "ar", "@value": "مهندس كمبيوتر ماهر في تطوير البرمجيات الكاملة والروبوتات، يقدم حلولاً متكاملة تجمع بين الأجهزة والبرمجيات." },
+						{ "@language": "tr", "@value": "Donanım-yazılım entegre çözümleri sunan, full-stack geliştirme ve robotik alanında yetkin Bilgisayar Mühendisi." }
+					],
 					"url": "https://haiderkhalaf.com",
 					"sameAs": [
 						"https://www.linkedin.com/in/haider-arrak-khalaf",
 						"https://github.com/haiderkhalaf"
 					],
 					"knowsAbout": [
-						"Full-Stack Development",
-						"Robotics",
-						"IoT",
-						"Natural Language Processing",
-						"Machine Learning",
-						"Computer Vision",
-						"Algorithms",
-						"Web Technologies"
+						"Full-Stack Development", "Robotics", "IoT", "Natural Language Processing", 
+						"Machine Learning", "Computer Vision", "Algorithms", "Web Technologies"
 					]
 					},
 					{
 					"@type": "WebSite",
 					"@id": "https://haiderkhalaf.com/#website",
 					"url": "https://haiderkhalaf.com",
-					"name": "Haider Arrak Khalaf Portfolio",
-					"publisher": {
-						"@id": "https://haiderkhalaf.com/#person"
-					}
+					"name": [
+						{ "@language": "en", "@value": "Haider Arrak Khalaf Portfolio" },
+						{ "@language": "ar", "@value": "معرض أعمال حيدر عراك خلف" },
+						{ "@language": "tr", "@value": "Haider Arrak Khalaf Portfolyosu" }
+					],
+					"publisher": { "@id": "https://haiderkhalaf.com/#person" }
 					},
 					{
 					"@type": "ItemList",
@@ -66,9 +70,16 @@
 						"position": 1,
 						"item": {
 							"@type": "CreativeWork",
-							"name": "Sensor-Based Monitoring for Geriatric Environments",
-							"description": "Real-time monitoring system integrating IoT devices and machine learning for elderly safety and well-being.",
-							"keywords": "IoT, Machine Learning, Geriatric Care, Real-time Monitoring"
+							"name": [
+							{ "@language": "en", "@value": "Sensor-Based Monitoring for Geriatric Environments" },
+							{ "@language": "ar", "@value": "نظام مراقبة قائم على الحساسات لبيئات كبار السن" },
+							{ "@language": "tr", "@value": "Geriatrik Ortamlar İçin Sensör Tabanlı İzleme" }
+							],
+							"description": [
+							{ "@language": "en", "@value": "Real-time monitoring system integrating IoT devices and machine learning for elderly safety." },
+							{ "@language": "ar", "@value": "نظام مراقبة في الوقت الحقيقي يدمج أجهزة إنترنت الأشياء والتعلم الآلي لسلامة كبار السن." },
+							{ "@language": "tr", "@value": "Yaşlı güvenliği için IoT cihazlarını ve makine öğrenmesini entegre eden gerçek zamanlı izleme sistemi." }
+							]
 						}
 						},
 						{
@@ -76,37 +87,25 @@
 						"position": 2,
 						"item": {
 							"@type": "SoftwareSourceCode",
-							"name": "Turkish Text Summarizer",
-							"description": "Full-stack project using NLP techniques like cosine similarity and PageRank to generate concise summaries of Turkish texts.",
-							"programmingLanguage": "Python",
-							"keywords": "NLP, Text Summarization, PageRank, Cosine Similarity"
-						}
-						},
-						{
-						"@type": "ListItem",
-						"position": 3,
-						"item": {
-							"@type": "CreativeWork",
-							"name": "Automated Object Detection and Tracking",
-							"description": "Machine learning model for real-time object detection and classification using custom datasets.",
-							"keywords": "Computer Vision, Object Detection, Machine Learning"
-						}
-						},
-						{
-						"@type": "ListItem",
-						"position": 4,
-						"item": {
-							"@type": "CreativeWork",
-							"name": "Computer Vision Controlled Robotic Hand",
-							"description": "Robotic hand controlled via computer vision, integrating machine learning and image processing. Patent pending.",
-							"keywords": "Robotics, Computer Vision, Machine Learning, Patent"
+							"name": [
+							{ "@language": "en", "@value": "Turkish Text Summarizer" },
+							{ "@language": "ar", "@value": "ملخص النصوص التركية" },
+							{ "@language": "tr", "@value": "Türkçe Metin Özetleyici" }
+							],
+							"description": [
+							{ "@language": "en", "@value": "Full-stack project using NLP techniques like cosine similarity and PageRank." },
+							{ "@language": "ar", "@value": "مشروع متكامل يستخدم تقنيات معالجة اللغة الطبيعية مثل تشابه الجيب و PageRank." },
+							{ "@language": "tr", "@value": "NLP tekniklerini (kosinüs benzerliği ve PageRank ) kullanan full-stack projesi." }
+							],
+							"programmingLanguage": "Python"
 						}
 						}
 					]
 					}
 				]
 				}
-			</script>						
+		</script>
+			
 
 	</head>
 
