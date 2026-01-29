@@ -4,9 +4,11 @@
 	<head>
 		<title data-i18n="title"></title>
 		<meta charset="utf-8" />
+		<meta name="title" content="" data-i18n="title"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="description" content="" data-i18n="metaDescription">
-		<meta name="keywords" content="" data-i18n="metaKeywords">
+		<meta name="keywords" content="" data-i18n="metaKeywords" />
+		<meta name="author" content="" data-i18n="title" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" type="image/png" href="/icons/favicon-96x96.png" sizes="96x96" />
 		<link rel="icon" type="image/svg+xml" href="/icons/favicon.svg" />
@@ -19,8 +21,95 @@
 		<link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/?lang=en" />
 		<link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/?lang=ar" />
 		<link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/?lang=tr" />
-	
+
+		<script type="application/ld+json">
+				{
+				"@context": "https://schema.org",
+				"@graph": [
+					{
+					"@type": "Person",
+					"@id": "https://haiderkhalaf.com/#person",
+					"name": "Haider Arrak Khalaf",
+					"jobTitle": "Junior Computer Engineer",
+					"description": "Junior Computer Engineer skilled in full-stack development and robotics, delivering integrated hardware-software solutions.",
+					"url": "https://haiderkhalaf.com",
+					"sameAs": [
+						"https://www.linkedin.com/in/haider-arrak-khalaf",
+						"https://github.com/haiderkhalaf"
+					],
+					"knowsAbout": [
+						"Full-Stack Development",
+						"Robotics",
+						"IoT",
+						"Natural Language Processing",
+						"Machine Learning",
+						"Computer Vision",
+						"Algorithms",
+						"Web Technologies"
+					]
+					},
+					{
+					"@type": "WebSite",
+					"@id": "https://haiderkhalaf.com/#website",
+					"url": "https://haiderkhalaf.com",
+					"name": "Haider Arrak Khalaf Portfolio",
+					"publisher": {
+						"@id": "https://haiderkhalaf.com/#person"
+					}
+					},
+					{
+					"@type": "ItemList",
+					"name": "Projects",
+					"itemListElement": [
+						{
+						"@type": "ListItem",
+						"position": 1,
+						"item": {
+							"@type": "CreativeWork",
+							"name": "Sensor-Based Monitoring for Geriatric Environments",
+							"description": "Real-time monitoring system integrating IoT devices and machine learning for elderly safety and well-being.",
+							"keywords": "IoT, Machine Learning, Geriatric Care, Real-time Monitoring"
+						}
+						},
+						{
+						"@type": "ListItem",
+						"position": 2,
+						"item": {
+							"@type": "SoftwareSourceCode",
+							"name": "Turkish Text Summarizer",
+							"description": "Full-stack project using NLP techniques like cosine similarity and PageRank to generate concise summaries of Turkish texts.",
+							"programmingLanguage": "Python",
+							"keywords": "NLP, Text Summarization, PageRank, Cosine Similarity"
+						}
+						},
+						{
+						"@type": "ListItem",
+						"position": 3,
+						"item": {
+							"@type": "CreativeWork",
+							"name": "Automated Object Detection and Tracking",
+							"description": "Machine learning model for real-time object detection and classification using custom datasets.",
+							"keywords": "Computer Vision, Object Detection, Machine Learning"
+						}
+						},
+						{
+						"@type": "ListItem",
+						"position": 4,
+						"item": {
+							"@type": "CreativeWork",
+							"name": "Computer Vision Controlled Robotic Hand",
+							"description": "Robotic hand controlled via computer vision, integrating machine learning and image processing. Patent pending.",
+							"keywords": "Robotics, Computer Vision, Machine Learning, Patent"
+						}
+						}
+					]
+					}
+				]
+				}
+			</script>						
+
 	</head>
+
 	<body class="is-preload">
 
 		<!-- Loader -->
@@ -64,8 +153,8 @@
 								<img src="https://hitscounter.dev/api/hit?url=haiderkhalaf.com&label=Visitors&icon=file-earmark-person-fill&color=%23fff&message=&style=social&tz=localtime" 
 									alt="visitor counter" class="visitor-counter">
 							</li>
-							<li><a href="https://www.linkedin.com/in/haider-khalaf/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">fa-linkedIn</span></a></li>
-									<li><a href="https://github.com/B7SJuba" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/haider-khalaf/" target="_blank" class="icon brands alt fa-linkedin" rel="me"><span class="label">fa-linkedIn</span></a></li>
+									<li><a href="https://github.com/B7SJuba" target="_blank" class="icon brands alt fa-github" rel="me"><span class="label">GitHub</span></a></li>
 									<li class="language-switch-list">
 										
 											<select id="langSwitcherList">
@@ -289,8 +378,8 @@
 							<section>
 								<h3 data-i18n="Social"></h3>
 								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/haider-khalaf/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">fa-linkedIn</span></a></li>
-									<li><a href="https://github.com/B7SJuba" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.linkedin.com/in/haider-khalaf/" target="_blank" class="icon brands alt fa-linkedin" rel="me"><span class="label">fa-linkedIn</span></a></li>
+									<li><a href="https://github.com/B7SJuba" target="_blank" class="icon brands alt fa-github" rel="me"><span class="label">GitHub</span></a></li>
 								</ul>
 							</section>
 						</section>
@@ -499,8 +588,7 @@
 				videos.forEach(video => observer.observe(video));
 				});
 			</script>
-									
-
+			
 			<!--
 			<script>
 				// Old typing effect script

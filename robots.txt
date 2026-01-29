@@ -1,0 +1,18 @@
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Standard rule for all other crawlers 
+User-agent: *
+Allow: /
+
+# Points to Sitemap
+Sitemap: https://haiderkhalaf.com/sitemap.xml
