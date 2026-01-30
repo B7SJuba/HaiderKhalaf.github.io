@@ -23,91 +23,144 @@
 		<link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/?lang=tr" />
 
 		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@graph": [
 				{
-				"@context": "https://schema.org",
-				"@graph": [
-					{
-					"@type": "Person",
-					"@id": "https://haiderkhalaf.com/#person",
-					"name": [
-						 { "@language: "en", "@value": "Haider Arrak Khalaf" },
-						 { "@language: "ar", "@value": "حيدر عراك خلف"},
-						 { "@language: "tr", "@value": "Haider Arrak Khalaf" }
-					],
-					"jobTitle": [
-						{ "@language": "en", "@value": "Junior Computer Engineer" },
-						{ "@language": "ar", "@value": "مهندس كمبيوتر" },
-						{ "@language": "tr", "@value": "Bilgisayar Mühendisi" }
-					],
-					"description": [
-						{ "@language": "en", "@value": "Junior Computer Engineer skilled in full-stack development and robotics, delivering integrated hardware-software solutions." },
-						{ "@language": "ar", "@value": "مهندس كمبيوتر ماهر في تطوير البرمجيات الكاملة والروبوتات، يقدم حلولاً متكاملة تجمع بين الأجهزة والبرمجيات." },
-						{ "@language": "tr", "@value": "Donanım-yazılım entegre çözümleri sunan, full-stack geliştirme ve robotik alanında yetkin Bilgisayar Mühendisi." }
-					],
-					"url": "https://haiderkhalaf.com",
-					"sameAs": [
-						"https://www.linkedin.com/in/haider-arrak-khalaf",
-						"https://github.com/haiderkhalaf"
-					],
-					"knowsAbout": [
-						"Full-Stack Development", "Robotics", "IoT", "Natural Language Processing", 
-						"Machine Learning", "Computer Vision", "Algorithms", "Web Technologies"
-					]
+				"@type": "Person",
+				"@id": "https://haiderkhalaf.com/#person",
+				"name": "Haider Arrak Khalaf",
+				"jobTitle": [
+					{ "@language": "en", "@value": "Junior Computer Engineer & Full-Stack Developer" },
+					{ "@language": "ar", "@value": "مهندس كمبيوتر ومطور برمجيات متكاملة" },
+					{ "@language": "tr", "@value": "Bilgisayar Mühendisi ve Full-Stack Geliştirici" }
+				],
+				"description": [
+					{ 
+					"@language": "en", 
+					"@value": "Haider Arrak Khalaf is a Junior Computer Engineer specializing in the integration of hardware and software solutions. He has extensive expertise in full-stack web development, robotics, and the Internet of Things (IoT). His work focuses on leveraging machine learning and computer vision to solve real-world problems, such as geriatric safety and automated text processing. He is proficient in Python, JavaScript, and C++, with a strong background in algorithms and data analysis." 
 					},
-					{
-					"@type": "WebSite",
-					"@id": "https://haiderkhalaf.com/#website",
-					"url": "https://haiderkhalaf.com",
-					"name": [
-						{ "@language": "en", "@value": "Haider Arrak Khalaf Portfolio" },
-						{ "@language": "ar", "@value": "معرض أعمال حيدر عراك خلف" },
-						{ "@language": "tr", "@value": "Haider Arrak Khalaf Portfolyosu" }
-					],
-					"publisher": { "@id": "https://haiderkhalaf.com/#person" }
+					{ 
+					"@language": "ar", 
+					"@value": "حيدر عراك خلف هو مهندس كمبيوتر متخصص في تطوير الحلول البرمجية المتكاملة والأنظمة الذكية التي تجمع بين الأجهزة والبرامج. يتمتع بخبرة واسعة في تطوير البرمجيات الكاملة (Full-Stack)، والأنظمة المدمجة، والروبوتات. يركز في أبحاثه وعمله على استخدام تقنيات تعلم الآلة والرؤية الحاسوبية لتحسين جودة الحياة، مثل تطوير أنظمة مراقبة كبار السن. حيدر متمكن من لغات البرمجة مثل بايثون وجافا سكريبت، ويسعى دائماً لتقديم حلول تقنية مبتكرة تتسم بالكفاءة والدقة." 
 					},
+					{ 
+					"@language": "tr", 
+					"@value": "Haider Arrak Khalaf, donanım ve yazılım çözümlerinin entegrasyonu konusunda uzmanlaşmış bir Bilgisayar Mühendisidir. Full-stack web geliştirme, robotik ve Nesnelerin İnterneti (IoT) alanlarında derinlemesine yetkinliğe sahiptir. Çalışmaları, geriatrik güvenlik ve otomatik metin işleme gibi gerçek dünya sorunlarını çözmek için makine öğrenmesi ve bilgisayarlı görü tekniklerini kullanmaya odaklanmaktadır. Python, JavaScript ve C++ dillerinde yetkin olup, algoritmalar ve veri analizi konularında güçlü bir akademik ve pratik altyapıya sahiptir." 
+					}
+				],
+				"url": "https://haiderkhalaf.com",
+				"sameAs": [
+					"https://www.linkedin.com/in/haider-arrak-khalaf",
+					"https://github.com/haiderkhalaf"
+				],
+				"knowsAbout": [
+					"Full-Stack Development", "Robotics", "IoT", "Natural Language Processing", 
+					"Machine Learning", "Computer Vision", "Algorithms", "Web Technologies",
+					"Embedded Systems", "Data Science", "Artificial Intelligence"
+				],
+				"alumniOf": {
+					"@type": "EducationalOrganization",
+					"name": "Computer Engineering Department"
+				}
+				},
+				{
+				"@type": "WebSite",
+				"@id": "https://haiderkhalaf.com/#website",
+				"url": "https://haiderkhalaf.com",
+				"name": "Haider Arrak Khalaf Portfolio",
+				"publisher": { "@id": "https://haiderkhalaf.com/#person" }
+				},
+				{
+				"@type": "ItemList",
+				"name": "Featured Projects",
+				"itemListElement": [
 					{
-					"@type": "ItemList",
-					"name": "Projects",
-					"itemListElement": [
-						{
-						"@type": "ListItem",
-						"position": 1,
-						"item": {
-							"@type": "CreativeWork",
-							"name": [
-							{ "@language": "en", "@value": "Sensor-Based Monitoring for Geriatric Environments" },
-							{ "@language": "ar", "@value": "نظام مراقبة قائم على الحساسات لبيئات كبار السن" },
-							{ "@language": "tr", "@value": "Geriatrik Ortamlar İçin Sensör Tabanlı İzleme" }
-							],
-							"description": [
-							{ "@language": "en", "@value": "Real-time monitoring system integrating IoT devices and machine learning for elderly safety." },
-							{ "@language": "ar", "@value": "نظام مراقبة في الوقت الحقيقي يدمج أجهزة إنترنت الأشياء والتعلم الآلي لسلامة كبار السن." },
-							{ "@language": "tr", "@value": "Yaşlı güvenliği için IoT cihazlarını ve makine öğrenmesini entegre eden gerçek zamanlı izleme sistemi." }
-							]
-						}
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@type": "CreativeWork",
+						"name": [
+						{ "@language": "en", "@value": "Sensor-Based Monitoring and Adaptation for Geriatric Environments" },
+						{ "@language": "ar", "@value": "نظام مراقبة وتكييف قائم على الحساسات لبيئات كبار السن" },
+						{ "@language": "tr", "@value": "Geriatrik Ortamlar İçin Sensör Tabanlı İzleme ve Uyarlama Sistemi" }
+						],
+						"description": [
+						{ 
+							"@language": "en", 
+							"@value": "A sophisticated real-time monitoring system that integrates IoT devices and machine learning models to enhance the safety and well-being of elderly individuals. It uses advanced positioning algorithms and intuitive dashboards to provide actionable insights for geriatric care." 
 						},
-						{
-						"@type": "ListItem",
-						"position": 2,
-						"item": {
-							"@type": "SoftwareSourceCode",
-							"name": [
-							{ "@language": "en", "@value": "Turkish Text Summarizer" },
-							{ "@language": "ar", "@value": "ملخص النصوص التركية" },
-							{ "@language": "tr", "@value": "Türkçe Metin Özetleyici" }
-							],
-							"description": [
-							{ "@language": "en", "@value": "Full-stack project using NLP techniques like cosine similarity and PageRank." },
-							{ "@language": "ar", "@value": "مشروع متكامل يستخدم تقنيات معالجة اللغة الطبيعية مثل تشابه الجيب و PageRank." },
-							{ "@language": "tr", "@value": "NLP tekniklerini (kosinüs benzerliği ve PageRank ) kullanan full-stack projesi." }
-							],
-							"programmingLanguage": "Python"
+						{ 
+							"@language": "ar", 
+							"@value": "نظام مراقبة متطور يعمل في الوقت الحقيقي، يدمج أجهزة إنترنت الأشياء ونماذج تعلم الآلة لتعزيز سلامة ورفاهية كبار السن. يستخدم النظام خوارزميات تحديد مواقع متقدمة ولوحات تحكم تفاعلية لتقديم رؤى قابلة للتنفيذ في بيئات الرعاية الصحية." 
+						},
+						{ 
+							"@language": "tr", 
+							"@value": "Yaşlı bireylerin güvenliğini ve refahını artırmak için IoT cihazlarını ve makine öğrenmesi modellerini entegre eden gelişmiş bir gerçek zamanlı izleme sistemi. Geriatrik bakım için uygulanabilir içgörüler sağlamak amacıyla gelişmiş konumlandırma algoritmaları ve sezgisel paneller kullanır." 
 						}
+						],
+						"keywords": "IoT, Machine Learning, Geriatric Care, Real-time Systems"
+					}
+					},
+					{
+					"@type": "ListItem",
+					"position": 2,
+					"item": {
+						"@type": "SoftwareSourceCode",
+						"name": [
+						{ "@language": "en", "@value": "Turkish Text Summarizer with NLP" },
+						{ "@language": "ar", "@value": "أداة تلخيص النصوص التركية باستخدام معالجة اللغة الطبيعية" },
+						{ "@language": "tr", "@value": "NLP ile Türkçe Metin Özetleyici" }
+						],
+						"description": [
+						{ 
+							"@language": "en", 
+							"@value": "A full-stack application that utilizes Natural Language Processing (NLP) techniques, including Cosine Similarity and PageRank, to generate concise and accurate summaries of Turkish texts. Features a scalable backend and an interactive user interface." 
+						},
+						{ 
+							"@language": "ar", 
+							"@value": "تطبيق متكامل يستخدم تقنيات معالجة اللغة الطبيعية (NLP)، بما في ذلك تشابه الجيب وخوارزمية PageRank، لإنشاء ملخصات دقيقة وموجزة للنصوص التركية. يتميز بنظام خلفي قابل للتوسع وواجهة مستخدم تفاعلية." 
+						},
+						{ 
+							"@language": "tr", 
+							"@value": "Türkçe metinlerin kısa ve doğru özetlerini oluşturmak için Kosinüs Benzerliği ve PageRank dahil olmak üzere Doğal Dil İşleme (NLP) tekniklerini kullanan bir full-stack uygulaması. Ölçeklenebilir bir arka uç ve etkileşimli bir kullanıcı arayüzüne sahiptir." 
 						}
-					]
+						],
+						"programmingLanguage": "Python",
+						"keywords": "NLP, Text Summarization, PageRank, Python"
+					}
+					},
+					{
+					"@type": "ListItem",
+					"position": 3,
+					"item": {
+						"@type": "CreativeWork",
+						"name": [
+						{ "@language": "en", "@value": "Computer Vision Controlled Robotic Hand" },
+						{ "@language": "ar", "@value": "يد روبوتية يتم التحكم بها عبر الرؤية الحاسوبية" },
+						{ "@language": "tr", "@value": "Bilgisayarlı Görü Kontrollü Robotik El" }
+						],
+						"description": [
+						{ 
+							"@language": "en", 
+							"@value": "A robotics project focusing on developing a robotic hand controlled via computer vision, integrating machine learning and image processing. The work includes a novel approach to finger motion control and is pending a patent." 
+						},
+						{ 
+							"@language": "ar", 
+							"@value": "مشروع في مجال الروبوتات يركز على تطوير يد روبوتية يتم التحكم فيها من خلال الرؤية الحاسوبية، مع دمج تقنيات تعلم الآلة ومعالجة الصور. يتضمن العمل نهجاً مبتكراً للتحكم في حركة الأصابع وهو حالياً قيد تسجيل براءة الاختراع." 
+						},
+						{ 
+							"@language": "tr", 
+							"@value": "Makine öğrenmesi ve görüntü işlemeyi entegre ederek bilgisayarlı görü yoluyla kontrol edilen bir robot el geliştirmeye odaklanan bir robotik projesi. Çalışma, parmak hareketi kontrolüne yönelik özgün bir yaklaşım içermektedir ve patent aşamasındadır." 
+						}
+						],
+						"keywords": "Robotics, Computer Vision, Machine Learning, Patent Pending"
+					}
 					}
 				]
 				}
+			]
+			}
 		</script>
 			
 
