@@ -178,7 +178,7 @@
 
 				// Load translation file and replace text
 				function loadLanguage(langCode) {
-					fetch(`aitrainingspecialist_${langCode}.json`)
+					fetch(`lang/${langCode}/aitrainingspecialist_${langCode}.json`)
 					.then(res => res.json())
 					.then(data => {
 						document.querySelectorAll("[data-i18n]").forEach(el => {
@@ -216,7 +216,7 @@
 	
 
 				// Load JSON file based on language
-				fetch(`aitrainingspecialist_${lang}.json`)
+				fetch(`lang/${lang}/aitrainingspecialist_${lang}.json`)
 					.then(response => response.json())
 					.then(translations => {
 					document.querySelectorAll("[data-i18n]").forEach(el => {

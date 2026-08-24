@@ -1,0 +1,12 @@
+{
+   "SoftwareEngineer": "Yazılım Mühendisi",
+   "myHeader": "Haider Arrak Khalaf",
+   "Projects&WorkExperience": "Projeler ve İş Deneyimi",
+   
+   "SoftwareEngineerDate": "Ocak 2026 - Devam Ediyor",
+   "FirstArticle": "International Development Bank'te Yazılım Mühendisi olarak, Kara Para Aklamayı Önleme (AML) ve Temel Bankacılık (Core Banking) çözümleri de dahil olmak üzere bankacılık sistemlerinin uçtan uca entegrasyonu üzerinde çalışıyorum. Finansal platformlar arasında güvenilir, yüksek performanslı ve sorunsuz bir entegrasyon sağlamak amacıyla backend servisleri, API'ler, veritabanı prosedürleri ve frontend bileşenleri geliştiriyor ve sürdürüyor; aynı zamanda Oracle ve Microsoft SQL Server veritabanlarını yönetiyorum.",
+   "SecondArticle": "Uygulama geliştirmenin ötesinde, bu rol bana büyük ölçekli kurumsal bankacılık ortamlarının arkasındaki altyapı ve teknolojilerle çalışma fırsatı sundu. Apache Kafka ve ZooKeeper ile çalışarak dağıtık sistemler ve farklı servisler ile platformlar arasındaki mesaj tabanlı iletişim konusunda uygulamalı deneyim kazandım. Ayrıca uygulamaların dağıtımı, yapılandırılması ve sistem entegrasyonu süreçlerinde Apache Tomcat ve diğer Apache sunucu teknolojileriyle çalıştım.\nBu deneyim, karmaşık kurumsal sistemlerin yalnızca bireysel uygulamaların ötesinde nasıl çalıştığına dair anlayışımı geliştirdi. Veritabanı prosedürleri ve API'lerden mesaj akışına, uygulama sunucularından birbirine bağlı servislere kadar, kritik bankacılık platformlarının güvenilir ve verimli bir şekilde iletişim kurmasını sağlayan teknolojilerle çalışıyorum.\nBu ortamda çalışmak; kurumsal mimari, dağıtık sistemler ve büyük ölçekli sistem entegrasyonu konularındaki deneyimimi güçlendirirken, modern finansal hizmetleri destekleyen teknik altyapı konusunda da pratik deneyim kazanmamı sağladı.",
+
+   "Email": "E-posta",
+   "Social": "Sosyal"
+}

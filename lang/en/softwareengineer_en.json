@@ -1,0 +1,12 @@
+{
+   "SoftwareEngineer": "Software Engineer",
+   "myHeader": "Haider Arrak Khalaf",
+   "Projects&WorkExperience": "Projects & Work Experience",
+   
+   "SoftwareEngineerDate": "January 2026 - Ongoing",
+   "FirstArticle": "Working at International Development Bank as a Software Engineer on full-stack integration for banking systems, including Anti-Money Laundering (AML) and Core Banking solutions. I develop and maintain backend services, APIs, database procedures, and frontend components while managing Oracle and Microsoft SQL Server databases to ensure reliable, high-performance, and seamless integration across financial platforms.",
+   "SecondArticle": "Beyond application development, this role has given me the opportunity to work with the infrastructure and technologies behind large-scale enterprise banking environments. I have gained hands-on experience with Apache Kafka and ZooKeeper, working with distributed systems and message-based communication between different services and platforms. I have also worked with Apache Tomcat and other Apache server technologies for application deployment, configuration, and system integration.\nThis experience has expanded my understanding of how complex enterprise systems operate beyond individual applications. From database procedures and APIs to message streaming, application servers, and interconnected services, I work with technologies that help keep critical banking platforms communicating reliably and efficiently.\nWorking in this environment has strengthened my experience with enterprise architecture, distributed systems, and large-scale system integration, while giving me practical exposure to the technical infrastructure that supports modern financial services.",
+
+    "Email": "Email",
+    "Social": "Social"
+}

@@ -1,0 +1,312 @@
+<!DOCTYPE HTML>
+
+<html lang="en" dir="ltr">
+	<head>
+		<title data-i18n="SoftwareEngineer"></title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image/png" href="/icons/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/icons/favicon.svg" />
+		<link rel="shortcut icon" href="/icons/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+		<link rel="manifest" href="/icons/site.webmanifest" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cairo&display=swap" rel="stylesheet">
+		<link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/SoftwareEngineer?lang=en" />
+		<link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/SoftwareEngineer?lang=ar" />
+		<link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/SoftwareEngineer=tr" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Loader -->
+		<div class="loader">
+			<img src="images/loadingBlack.gif" alt="">
+		</div>
+
+		<!-- Background Video & Dark Overlay -->
+		<video autoplay muted loop playsinline webkit-playsinline id="video-background">
+		<source src="images/coding-background.mp4" type="video/mp4">
+		</video>
+		<img src="images/coding-background.gif" id="video-fallback" alt="background" />
+		<div class="overlay-text"></div>
+		
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index" class="logo" data-i18n="myHeader"></a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index" data-i18n="Projects&WorkExperience"></a></li>
+
+						</ul>
+						<ul class="icons">
+							<li style="text-align: center; margin-top: 0px;">
+								<img src="https://hitscounter.dev/api/hit?url=haiderkhalaf.com&label=Visitors&icon=file-earmark-person-fill&color=%23fff&message=&style=social&tz=localtime" 
+									alt="visitor counter" class="visitor-counter">
+							</li>
+							<li><a href="https://www.linkedin.com/in/haider-khalaf/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">fa-linkedIn</span></a></li>
+							<li><a href="https://github.com/B7SJuba" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li class="language-switch-list">		
+									<select id="langSwitcherList">
+										<option class="language-switch-list" value="en">English</option>
+										<option class="language-switch-list" value="ar">عربي</option>
+										<option class="language-switch-list" value="tr">Türkçe</option>
+									</select>
+							</li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<span class="date" data-i18n="SoftwareEngineerDate"></span>
+									<h1 data-i18n="SoftwareEngineer"></h1>
+									<p data-i18n="FirstArticle"></p>
+								</header>
+								<div class="image main">
+									<video autoplay loop muted playsinline 
+										class="article-thumb"
+										poster="images/Software-engineer.jpg">
+										
+										<!-- highest quality + best compression -->
+										<source src="images/Software-engineer.jpg" type="video/webm">
+
+										<!-- secondary fallback (Safari, older iOS) -->
+										<source src="images/Software-engineer.jpg" type="video/mp4">
+
+										<!-- absolute fallback if video is unsupported -->
+										<img src="images/Software-engineer.jpg" alt="AI Training Specialist">
+									</video>		
+								</div>
+								<p data-i18n="SecondArticle"></p>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						
+						<section class="split contact">
+							<section>
+								<h3 data-i18n="Email"></h3>
+								<p><a onclick="copyToClipboard('HKhalaf.contact@gmail.com'); return false;">HKhalaf.contact@gmail.com</a></p>
+							</section>
+							<section>
+								<h3 data-i18n="Social"></h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/haider-khalaf/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">fa-linkedIn</span></a></li>
+									<li><a href="https://github.com/B7SJuba" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; B7SJ</li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				function copyToClipboard(text) {
+					navigator.clipboard.writeText(text)
+						.then(() => {
+							alert('Email copied to clipboard!');
+						})
+						.catch(err => {
+							console.error('Could not copy text: ', err);
+						});
+				}
+			</script>
+
+			<script>
+				// Loader Script 
+				window.addEventListener("load", function() {
+					const loader = document.querySelector(".loader");
+					loader.className += " hidden"; // Adding hidden to loader class to hide it
+				}) 
+			</script>
+			
+			<script>
+				// Language Switcher Logic (List)
+
+				document.addEventListener("DOMContentLoaded", function () {
+				const langSwitcher = document.getElementById("langSwitcherList");
+
+				// Get saved language from localStorage (default to 'en')
+				let savedLang = localStorage.getItem("lang") || "en";
+
+				// Set dropdown to saved language
+				langSwitcher.value = savedLang;
+
+				// Update page language and load translations
+				setLanguage(savedLang);
+				loadLanguage(savedLang);
+
+				// Listen for user selection
+				langSwitcher.addEventListener("change", function () {
+					let selectedLang = this.value;
+					localStorage.setItem("lang", selectedLang); // save
+					setLanguage(selectedLang);
+					loadLanguage(selectedLang);
+				});
+
+				function setLanguage(lang) {
+					document.documentElement.setAttribute("lang", lang);
+					document.documentElement.setAttribute("dir", lang === "ar" ? "rtl" : "ltr");
+				}
+
+				// Load translation file and replace text
+				function loadLanguage(langCode) {
+					fetch(`lang/${langCode}/softwareengineer_${langCode}.json`)
+					.then(res => res.json())
+					.then(data => {
+						document.querySelectorAll("[data-i18n]").forEach(el => {
+						const key = el.getAttribute("data-i18n");
+						if (data[key]) {
+							// Handle innerHTML for values with tags (like links <a>)
+							if (/<[a-z][\s\S]*>/i.test(data[key])) {
+							el.innerHTML = data[key];
+							} else {
+							el.textContent = data[key];
+							}
+						}
+						});
+					})
+					.catch(err => console.error("Error loading translation:", err));
+				}
+				});
+
+			</script>			
+			
+			<script>
+				// Script ot query language via URL 
+				document.addEventListener("DOMContentLoaded", () => {
+ 			    // Get lang parameter (default to English)
+  				const urlParams = new URLSearchParams(window.location.search);
+				
+				// Get saved language or default to English
+				let localLang = localStorage.getItem("lang");
+  				const lang =  urlParams.get("lang") || localLang ;
+				console.log(lang);
+
+				// To adjust the language switcher value
+				let switcherLanguage = document.getElementById("langSwitcherList");			
+				switcherLanguage.value = lang;
+	
+
+				// Load JSON file based on language
+				fetch(`lang/${lang}/softwareengineer_${lang}.json`)
+					.then(response => response.json())
+					.then(translations => {
+					document.querySelectorAll("[data-i18n]").forEach(el => {
+						const key = el.getAttribute("data-i18n");
+						if (translations[key]) {
+						el.textContent = translations[key];
+						}
+					});
+
+					// Set <html lang="xx"> for SEO
+					document.documentElement.lang = lang;
+					document.documentElement.setAttribute("dir", lang === "ar" ? "rtl" : "ltr");	
+				})
+					.catch(err => console.error("Error loading language file:", err));
+					});
+			</script>
+
+
+
+			<script>
+				//This script tries to play the bg video, if it's blocked then the gif will display instead.
+				document.addEventListener('DOMContentLoaded', () => {
+				const video = document.getElementById('video-background');
+				const fallback = document.getElementById('video-fallback');
+
+				// Function to show fallback if video can't play
+				function showFallback() {
+					if (video) video.style.display = 'none';
+					if (fallback) fallback.style.display = 'block';
+				}
+
+				// Try to play video programmatically (some browsers block autoplay)
+				if (video) {
+					const playPromise = video.play();
+
+					if (playPromise !== undefined) {
+					playPromise
+						.then(() => {
+						// It played — good
+						console.log('Background video is playing.');
+						})
+						.catch((error) => {
+						console.warn('Autoplay blocked, using fallback:', error);
+						showFallback();
+						});
+					} else {
+					// No autoplay support
+					showFallback();
+					}
+				} else {
+					showFallback();
+				}
+				});
+			</script>
+
+			<script>
+				// Script to pause post videos when not visible to the viewer
+				document.addEventListener("DOMContentLoaded", () => {
+				const videos = document.querySelectorAll(".article-thumb");
+
+				// Observer options: video must be at least 50% visible to play
+				const observerOptions = {
+					root: null,           // viewport
+					threshold: 0.5        // 50% visibility required
+				};
+
+				const observer = new IntersectionObserver((entries) => {
+					entries.forEach(entry => {
+					const video = entry.target;
+
+					if (entry.isIntersecting) {
+						// Try to play when visible
+						const playAttempt = video.play();
+						if (playAttempt !== undefined) {
+						playAttempt.catch(() => {
+							// Autoplay blocked → do nothing
+						});
+						}
+					} else {
+						// Pause when off screen
+						video.pause();
+					}
+					});
+				}, observerOptions);
+
+				videos.forEach(video => observer.observe(video));
+				});
+			</script>
+			
+
+
+	</body>
+</html>

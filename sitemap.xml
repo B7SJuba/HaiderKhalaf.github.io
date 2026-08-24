@@ -30,6 +30,33 @@
     <priority>1.00</priority>
   </url>
   
+
+  <!-- SoftwareEngineer -->
+  <url>
+    <loc>https://haiderkhalaf.com/SoftwareEngineer?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/SoftwareEngineer?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/SoftwareEngineer?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://haiderkhalaf.com/SoftwareEngineer?lang=tr" />
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://haiderkhalaf.com/SoftwareEngineer?lang=ar</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/SoftwareEngineer?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/SoftwareEngineer?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://haiderkhalaf.com/SoftwareEngineer?lang=tr" />
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://haiderkhalaf.com/SoftwareEngineer?lang=tr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://haiderkhalaf.com/SoftwareEngineer?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://haiderkhalaf.com/SoftwareEngineer?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://haiderkhalaf.com/SoftwareEngineer?lang=tr" />
+    <priority>0.80</priority>
+  </url>
+
+
   <!-- AiTraining -->
   <url>
     <loc>https://haiderkhalaf.com/AITrainingSpecialist?lang=en</loc>

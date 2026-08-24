@@ -241,15 +241,44 @@
 					<div id="main">
 
 						<!-- Featured Post -->
-						 	<!-- AI Training Specialist -->
+						 	<!-- Software Engineer -->
 							<article class="post featured">
 								<header class="major">
-									<span class="date" data-i18n="AiTrainingDate"></span>
-									<h2 data-i18n="AiTrainingSpecialist"></h2>
-									<p data-i18n="AiTrainingAbout"></p>
+									<span class="date" data-i18n="SoftwareEngineerDate"></span>
+									<h2 data-i18n="SoftwareEngineer"></h2>
+									<p data-i18n="SoftwareEngineerAbout"></p>
 								</header>
 								<a class="image main">
 									<video autoplay loop muted playsinline 
+										class="article-thumb"
+										poster="images/Software-engineer.jpg">
+										
+										<!-- highest quality + best compression -->
+										<source src="images/Software-engineer.jpg" type="video/webm">
+
+										<!-- secondary fallback (Safari, older iOS) -->
+										<source src="images/Software-engineer.jpg" type="video/mp4">
+
+										<!-- absolute fallback if video is unsupported -->
+										<img src="images/Software-engineer.jpg" alt="Software Engineer">
+									</video>								
+								</a>
+								<ul class="actions special">
+									<li><a href="SoftwareEngineer" class="button large" data-i18n="View"></a></li>
+								</ul>
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+
+								<!-- AI Training Specialist -->
+								<article>
+									<header>
+										<span class="date" data-i18n="AiTrainingDate"></span>
+										<h2 data-i18n="AiTrainingSpecialist"></h2>
+									</header>
+									<a  class="image fit">
+										<video autoplay loop muted playsinline 
 										class="article-thumb"
 										poster="images/ai-training.jpg">
 										
@@ -261,15 +290,14 @@
 
 										<!-- absolute fallback if video is unsupported -->
 										<img src="images/ai-training.jpg" alt="AI Training Specialist">
-									</video>								
-								</a>
+									</video>	
+									</a>
+									<p data-i18n="AiTrainingAbout"></p>
 								<ul class="actions special">
-									<li><a href="AITrainingSpecialist" class="button large" data-i18n="View"></a></li>
-								</ul>
-							</article>
+										<li><a href="AITrainingSpecialist" class="button" data-i18n="ViewProject"></a></li>
+									</ul>
+								</article>
 
-						<!-- Posts -->
-							<section class="posts">
 
 								<!-- SMARTAGE -->
 								<article>
@@ -517,7 +545,7 @@
 
 				// Load translation file and replace text
 				function loadLanguage(langCode) {
-					fetch(`index_${langCode}.json`)
+					fetch(`lang/${langCode}/index_${langCode}.json`)
 					.then(res => res.json())
 					.then(data => {
 						document.querySelectorAll("[data-i18n]").forEach(el => {

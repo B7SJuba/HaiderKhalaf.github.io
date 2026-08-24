@@ -15,7 +15,11 @@
 
 
     "Project&WorkExperience": "Projects & Work Experience",
-    "AiTrainingDate": "October 2024 - Ongoing",
+    "SoftwareEngineerDate": "January 2026 - Ongoing",
+    "SoftwareEngineer": "Software Engineer",
+    "SoftwareEngineerAbout": "Working at International Development Bank as a Software Engineer on full-stack integration for banking systems, including Anti-Money Laundering (AML) and Core Banking solutions. I develop and maintain backend services, APIs, database procedures, and frontend components while managing Oracle and Microsoft SQL Server databases to ensure reliable, high-performance, and seamless integration across financial platforms.",
+
+    "AiTrainingDate": "October 2024 - December 2025",
     "AiTrainingSpecialist": "AI Training Engineer",
     "AiTrainingAbout": "As an AI Training Engineer at Outlier.ai, I train AI models using Reinforced Learning with Human Feedback (RLHF) to enhance decision-making and accuracy.\nMy role involves reviewing, optimizing, and improving code in Python, C, C++, and SQL,\nwith a focus on efficiency, error-free implementation, and maintainability.",
 
