@@ -2547,6 +2547,13 @@ input, select, textarea {
 		justify-content: center;
 		align-items: center;
 	}
+	/* fix for full screen loader */
+    .loader img {
+       display: block;
+       width: min(220px, 35vw);
+       height: auto;
+       max-width: 100%;
+    }
 
 	.loader.hidden {
 		animation: loaderFadeOut 0.3s;
