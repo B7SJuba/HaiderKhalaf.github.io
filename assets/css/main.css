@@ -5157,3 +5157,8 @@ input, select, textarea {
 		}
 
 	}
+	
+	/* Keep a complete outline around every project card */
+	#main > .posts > article {
+		border: 1px solid #ffffff !important;
+	}
